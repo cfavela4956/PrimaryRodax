@@ -700,23 +700,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aZa-jN-bfV">
-                                <rect key="frame" x="0.0" y="298" width="414" height="598"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aZa-jN-bfV">
+                                <rect key="frame" x="0.0" y="158" width="414" height="655"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKA-67-Qit">
-                                <rect key="frame" x="233" y="188" width="45" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="aZa-jN-bfV" firstAttribute="leading" secondItem="tza-7p-L59" secondAttribute="leading" id="B1V-1P-9Tc"/>
-                            <constraint firstItem="aZa-jN-bfV" firstAttribute="top" secondItem="tza-7p-L59" secondAttribute="top" constant="299" id="W2g-P3-gHH"/>
-                            <constraint firstAttribute="trailing" secondItem="aZa-jN-bfV" secondAttribute="trailing" id="oBz-Z8-Tkj"/>
-                            <constraint firstAttribute="bottom" secondItem="aZa-jN-bfV" secondAttribute="bottom" id="pvi-GN-eKi"/>
+                            <constraint firstItem="aZa-jN-bfV" firstAttribute="centerX" secondItem="tza-7p-L59" secondAttribute="centerX" id="4ie-zC-Jmd"/>
+                            <constraint firstItem="aZa-jN-bfV" firstAttribute="top" secondItem="0hs-Gn-isw" secondAttribute="top" constant="114" id="IJj-MS-iEJ"/>
+                            <constraint firstItem="aZa-jN-bfV" firstAttribute="leading" secondItem="0hs-Gn-isw" secondAttribute="leading" id="Uwj-W3-hpC"/>
+                            <constraint firstItem="aZa-jN-bfV" firstAttribute="bottom" secondItem="0hs-Gn-isw" secondAttribute="bottom" id="iCl-a7-dpT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0hs-Gn-isw"/>
                     </view>
@@ -728,7 +721,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9u-A3-f9O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="64" y="820"/>
+            <point key="canvasLocation" x="63.768115942028992" y="819.64285714285711"/>
         </scene>
         <!--Write a Review-->
         <scene sceneID="tAq-Rb-GJL">
