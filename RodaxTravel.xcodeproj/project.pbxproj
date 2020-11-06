@@ -11,7 +11,6 @@
 		3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725512551BBE400793468 /* Locations&Activites.swift */; };
 		3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725532551BFBD00793468 /* CreateNewLists.swift */; };
 		3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725552551D36000793468 /* ListsofLocations&Activites.swift */; };
-		3F3F5646253CE1D0007F853A /* CreateYourProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F5645253CE1D0007F853A /* CreateYourProfile.swift */; };
 		3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */; };
 		3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17053254928720040FCC7 /* HomePageViewController.swift */; };
 		3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31625365488001C9E56 /* AppDelegate.swift */; };
@@ -48,7 +47,6 @@
 		3F2725512551BBE400793468 /* Locations&Activites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locations&Activites.swift"; sourceTree = "<group>"; };
 		3F2725532551BFBD00793468 /* CreateNewLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewLists.swift; sourceTree = "<group>"; };
 		3F2725552551D36000793468 /* ListsofLocations&Activites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListsofLocations&Activites.swift"; sourceTree = "<group>"; };
-		3F3F5645253CE1D0007F853A /* CreateYourProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYourProfile.swift; sourceTree = "<group>"; };
 		3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewViewController.swift; sourceTree = "<group>"; };
 		3FA17053254928720040FCC7 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		3FCED31325365488001C9E56 /* RodaxTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodaxTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,7 +128,6 @@
 				3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */,
 				3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */,
 				3FA17053254928720040FCC7 /* HomePageViewController.swift */,
-				3F3F5645253CE1D0007F853A /* CreateYourProfile.swift */,
 				3FCED31F2536548A001C9E56 /* Assets.xcassets */,
 				3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */,
 				3FCED3242536548A001C9E56 /* Info.plist */,
@@ -354,7 +351,6 @@
 				3FCED31B25365488001C9E56 /* ViewController.swift in Sources */,
 				3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */,
 				3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */,
-				3F3F5646253CE1D0007F853A /* CreateYourProfile.swift in Sources */,
 				3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */,
 				3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */,
 				3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */,

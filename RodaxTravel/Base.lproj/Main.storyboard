@@ -45,94 +45,6 @@
             </objects>
             <point key="canvasLocation" x="-1381.1594202898552" y="-674.33035714285711"/>
         </scene>
-        <!--Create Your Profile-->
-        <scene sceneID="BrO-el-n00">
-            <objects>
-                <viewController storyboardIdentifier="CreateYourProfile" title="Create Your Profile" id="t0O-9f-aOF" customClass="CreateYourProfile" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="q4F-N8-HoD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Your Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTb-p7-hfZ">
-                                <rect key="frame" x="104" y="73" width="223" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFb-FY-AXN">
-                                <rect key="frame" x="33" y="437" width="70" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mC2-xE-tP3">
-                                <rect key="frame" x="33" y="466" width="302" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SN1-CA-itV">
-                                <rect key="frame" x="33" y="561" width="302" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ULx-0A-Eds">
-                                <rect key="frame" x="33" y="655" width="302" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9j-WO-pkH">
-                                <rect key="frame" x="33" y="530" width="46" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8S-Mi-Ixc">
-                                <rect key="frame" x="33" y="624" width="70" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I accept the Rodax User Agreement and have read the Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMQ-e5-PSf">
-                                <rect key="frame" x="96" y="737" width="277" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fs-dR-vNK">
-                                <rect key="frame" x="33" y="748" width="61" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIp-7d-B9T">
-                                <rect key="frame" x="182" y="823" width="51" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Done">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Vr8-zc-kQ7">
-                                <rect key="frame" x="96" y="141" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="6xt-c3-tCM"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="dUX-LP-350"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1UA-NL-2xj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-555" y="-697"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ijm-y6-yYl">
             <objects>
@@ -152,7 +64,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImV-vN-edw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="252" y="-19"/>
+            <point key="canvasLocation" x="259" y="1"/>
         </scene>
         <!--Home Page-->
         <scene sceneID="ZMG-gG-bLU">
@@ -224,7 +136,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="WkD-KQ-aSp"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="qGQ-cZ-GuT"/>
@@ -250,8 +162,8 @@
                                     <navigationItem title="Travel Guides" id="UNu-v1-Ugy"/>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngW-ns-3NV">
-                                <rect key="frame" x="57" y="176" width="300" height="168"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngW-ns-3NV">
+                                <rect key="frame" x="6" y="140" width="408" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Forest3"/>
                             </button>
@@ -307,7 +219,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.46891626650000001" blue="0.64153578369999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="uS5-wH-4mJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Activities" image="list.bullet" catalog="system" id="j06-ih-RYo"/>
@@ -368,7 +280,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="wfj-xZ-cRs"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Journal" image="square.and.pencil" catalog="system" id="BqS-ph-zBr"/>
@@ -440,7 +352,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="3jq-iR-pOu"/>
                     </view>
                     <navigationItem key="navigationItem" id="Nlh-NH-EhW"/>
@@ -465,13 +377,13 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="MZr-xn-W0d"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKi-dH-Npo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3087" y="-674"/>
+            <point key="canvasLocation" x="2954" y="-674"/>
         </scene>
         <!--Share Travel Plans Scene-->
         <scene sceneID="xdz-g9-ARp">
@@ -518,7 +430,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Fe7-WR-Ub4" firstAttribute="leading" secondItem="8Va-5P-9LG" secondAttribute="leading" id="3oJ-GM-nWe"/>
                             <constraint firstItem="SIP-z3-en1" firstAttribute="top" secondItem="8Va-5P-9LG" secondAttribute="top" constant="173" id="48O-W9-h7s"/>
@@ -564,7 +476,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ZEc-e9-VTD" firstAttribute="leading" secondItem="eiS-5T-wOe" secondAttribute="leading" constant="10" id="4oT-OL-Hbj"/>
                             <constraint firstItem="LOy-6w-lcG" firstAttribute="leading" secondItem="eiS-5T-wOe" secondAttribute="leading" constant="10" id="Cke-HU-8MQ"/>
@@ -584,7 +496,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sF1-g5-aWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1254" y="1424"/>
+            <point key="canvasLocation" x="2954" y="686"/>
         </scene>
         <!--Listsof Locations Activites-->
         <scene sceneID="Byw-iT-l2h">
@@ -593,13 +505,13 @@
                     <view key="view" contentMode="scaleToFill" id="R7E-bf-IW3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="YHr-1d-18r"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G4e-o7-S7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2141" y="1424"/>
+            <point key="canvasLocation" x="2955" y="1"/>
         </scene>
         <!--My Rodax-->
         <scene sceneID="2CH-Dh-wuv">
@@ -648,7 +560,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Uai-xg-i3v" firstAttribute="top" secondItem="Ua0-Zy-Tkb" secondAttribute="top" constant="299" id="0nN-kW-AZI"/>
                             <constraint firstItem="KN6-7d-Pp0" firstAttribute="leading" secondItem="qy2-D9-3e2" secondAttribute="trailing" constant="8" symbolic="YES" id="991-7e-dVT"/>
@@ -688,7 +600,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="centerX" secondItem="tza-7p-L59" secondAttribute="centerX" id="4ie-zC-Jmd"/>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="top" secondItem="0hs-Gn-isw" secondAttribute="top" constant="114" id="IJj-MS-iEJ"/>
@@ -746,7 +658,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Kd9-1K-wLz"/>
                     </view>
                 </viewController>
@@ -910,7 +822,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.crop.circle.fill.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rZC-Ch-4lx">
                                 <rect key="frame" x="87" y="211" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.0080795073879999998" green="0.2004590631" blue="0.38041400910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trp-oV-EWR">
                                 <rect key="frame" x="39" y="694" width="25" height="22"/>
@@ -924,18 +836,18 @@
                                 <rect key="frame" x="79" y="665" width="277" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.0080795073879999998" green="0.2004590631" blue="0.38041400910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.75166636710000001" green="0.85125595330000003" blue="0.83921366929999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.53136707146993389" green="0.72654251451678398" blue="0.84693035096269431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="40W-X2-ii7"/>
                     </view>
                     <navigationItem key="navigationItem" id="ria-5w-MNB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1AC-GV-KLF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="215.94202898550725" y="-674.33035714285711"/>
+            <point key="canvasLocation" x="-597" y="-674"/>
         </scene>
     </scenes>
     <resources>
