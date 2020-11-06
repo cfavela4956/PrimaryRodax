@@ -224,7 +224,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="WkD-KQ-aSp"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="qGQ-cZ-GuT"/>
@@ -307,7 +307,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.46891626650000001" blue="0.64153578369999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="uS5-wH-4mJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Activities" image="list.bullet" catalog="system" id="j06-ih-RYo"/>
@@ -368,7 +368,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="wfj-xZ-cRs"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Journal" image="square.and.pencil" catalog="system" id="BqS-ph-zBr"/>
@@ -440,7 +440,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="3jq-iR-pOu"/>
                     </view>
                     <navigationItem key="navigationItem" id="Nlh-NH-EhW"/>
@@ -465,7 +465,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="MZr-xn-W0d"/>
                     </view>
                 </viewController>
@@ -518,7 +518,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0091017261150000001" green="0.1998620629" blue="0.3804106116" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Fe7-WR-Ub4" firstAttribute="leading" secondItem="8Va-5P-9LG" secondAttribute="leading" id="3oJ-GM-nWe"/>
                             <constraint firstItem="SIP-z3-en1" firstAttribute="top" secondItem="8Va-5P-9LG" secondAttribute="top" constant="173" id="48O-W9-h7s"/>
@@ -564,7 +564,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.01053631585" green="0.19896301629999999" blue="0.40786373619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ZEc-e9-VTD" firstAttribute="leading" secondItem="eiS-5T-wOe" secondAttribute="leading" constant="10" id="4oT-OL-Hbj"/>
                             <constraint firstItem="LOy-6w-lcG" firstAttribute="leading" secondItem="eiS-5T-wOe" secondAttribute="leading" constant="10" id="Cke-HU-8MQ"/>
@@ -584,7 +584,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sF1-g5-aWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8302.898550724638" y="-674.33035714285711"/>
+            <point key="canvasLocation" x="1254" y="1424"/>
         </scene>
         <!--Listsof Locations Activites-->
         <scene sceneID="Byw-iT-l2h">
@@ -593,37 +593,13 @@
                     <view key="view" contentMode="scaleToFill" id="R7E-bf-IW3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.01053631585" green="0.19896301629999999" blue="0.40786373619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="YHr-1d-18r"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G4e-o7-S7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9015.9420289855079" y="-674.33035714285711"/>
-        </scene>
-        <!--Covid Controller-->
-        <scene sceneID="NRT-Sf-MkN">
-            <objects>
-                <viewController id="8PP-8v-icE" customClass="CovidController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="arX-x1-cNl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Covid controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbu-XW-zJ1">
-                                <rect key="frame" x="89" y="271" width="236" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="uDa-0J-8iN"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ynh-I6-9pD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4690" y="445"/>
+            <point key="canvasLocation" x="2141" y="1424"/>
         </scene>
         <!--My Rodax-->
         <scene sceneID="2CH-Dh-wuv">
@@ -672,7 +648,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Uai-xg-i3v" firstAttribute="top" secondItem="Ua0-Zy-Tkb" secondAttribute="top" constant="299" id="0nN-kW-AZI"/>
                             <constraint firstItem="KN6-7d-Pp0" firstAttribute="leading" secondItem="qy2-D9-3e2" secondAttribute="trailing" constant="8" symbolic="YES" id="991-7e-dVT"/>
@@ -712,7 +688,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="centerX" secondItem="tza-7p-L59" secondAttribute="centerX" id="4ie-zC-Jmd"/>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="top" secondItem="0hs-Gn-isw" secondAttribute="top" constant="114" id="IJj-MS-iEJ"/>
@@ -770,7 +746,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.024793235180000001" green="0.1982572973" blue="0.36708630180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Kd9-1K-wLz"/>
                     </view>
                 </viewController>
@@ -841,7 +817,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.0097015285859999995" green="0.19948670269999999" blue="0.39217624070000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="AM9-93-NSU" firstAttribute="leading" secondItem="wVj-Gc-43I" secondAttribute="leading" id="5Wv-gf-1vm"/>
                             <constraint firstItem="AM9-93-NSU" firstAttribute="top" secondItem="l0N-mg-1ZG" secondAttribute="bottom" id="65a-Gm-uKe"/>
