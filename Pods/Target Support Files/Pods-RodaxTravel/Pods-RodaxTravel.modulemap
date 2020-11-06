@@ -1,0 +1,6 @@
+framework module Pods_RodaxTravel {
+  umbrella header "Pods-RodaxTravel-umbrella.h"
+
+  export *
+  module * { export * }
+}

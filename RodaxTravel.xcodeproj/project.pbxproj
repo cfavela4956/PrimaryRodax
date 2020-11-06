@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2725502550E0DF00793468 /* ShareTravelPlansScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */; };
+		3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725512551BBE400793468 /* Locations&Activites.swift */; };
+		3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725532551BFBD00793468 /* CreateNewLists.swift */; };
+		3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725552551D36000793468 /* ListsofLocations&Activites.swift */; };
+		3F3F5646253CE1D0007F853A /* CreateYourProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F5645253CE1D0007F853A /* CreateYourProfile.swift */; };
+		3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */; };
+		3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17053254928720040FCC7 /* HomePageViewController.swift */; };
+		3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31625365488001C9E56 /* AppDelegate.swift */; };
+		3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31825365488001C9E56 /* SceneDelegate.swift */; };
+		3FCED31B25365488001C9E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31A25365488001C9E56 /* ViewController.swift */; };
+		3FCED31E25365488001C9E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCED31C25365488001C9E56 /* Main.storyboard */; };
+		3FCED3202536548A001C9E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCED31F2536548A001C9E56 /* Assets.xcassets */; };
+		3FCED3232536548A001C9E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */; };
+		3FCED32E2536548A001C9E56 /* RodaxTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED32D2536548A001C9E56 /* RodaxTravelTests.swift */; };
+		3FCED3392536548A001C9E56 /* RodaxTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */; };
+		B4DC7A4659BADFEEFF8522A8 /* Pods_RodaxTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14914F9F64A14888183BEEE9 /* Pods_RodaxTravel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCED32A2536548A001C9E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCED30B25365488001C9E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCED31225365488001C9E56;
+			remoteInfo = RodaxTravel;
+		};
+		3FCED3352536548A001C9E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCED30B25365488001C9E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCED31225365488001C9E56;
+			remoteInfo = RodaxTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14914F9F64A14888183BEEE9 /* Pods_RodaxTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RodaxTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTravelPlansScene.swift; sourceTree = "<group>"; };
+		3F2725512551BBE400793468 /* Locations&Activites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locations&Activites.swift"; sourceTree = "<group>"; };
+		3F2725532551BFBD00793468 /* CreateNewLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewLists.swift; sourceTree = "<group>"; };
+		3F2725552551D36000793468 /* ListsofLocations&Activites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListsofLocations&Activites.swift"; sourceTree = "<group>"; };
+		3F3F5645253CE1D0007F853A /* CreateYourProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateYourProfile.swift; sourceTree = "<group>"; };
+		3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewViewController.swift; sourceTree = "<group>"; };
+		3FA17053254928720040FCC7 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		3FCED31325365488001C9E56 /* RodaxTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodaxTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCED31625365488001C9E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FCED31825365488001C9E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FCED31A25365488001C9E56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FCED31D25365488001C9E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FCED31F2536548A001C9E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCED3222536548A001C9E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FCED3242536548A001C9E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCED3292536548A001C9E56 /* RodaxTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodaxTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCED32D2536548A001C9E56 /* RodaxTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodaxTravelTests.swift; sourceTree = "<group>"; };
+		3FCED32F2536548A001C9E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCED3342536548A001C9E56 /* RodaxTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodaxTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodaxTravelUITests.swift; sourceTree = "<group>"; };
+		3FCED33A2536548A001C9E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9344AC28CA6CA8DEDCCD63B3 /* Pods-RodaxTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.release.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.release.xcconfig"; sourceTree = "<group>"; };
+		C23499E49C2BC5DBF5FE438B /* Pods-RodaxTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.debug.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCED31025365488001C9E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DC7A4659BADFEEFF8522A8 /* Pods_RodaxTravel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCED3262536548A001C9E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCED3312536548A001C9E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCED30A25365488001C9E56 = {
+			isa = PBXGroup;
+			children = (
+				3FCED31525365488001C9E56 /* RodaxTravel */,
+				3FCED32C2536548A001C9E56 /* RodaxTravelTests */,
+				3FCED3372536548A001C9E56 /* RodaxTravelUITests */,
+				3FCED31425365488001C9E56 /* Products */,
+				B784E6A291CC823360A9F4C1 /* Pods */,
+				6035D02B7DC03D3B5705DAF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCED31425365488001C9E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCED31325365488001C9E56 /* RodaxTravel.app */,
+				3FCED3292536548A001C9E56 /* RodaxTravelTests.xctest */,
+				3FCED3342536548A001C9E56 /* RodaxTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCED31525365488001C9E56 /* RodaxTravel */ = {
+			isa = PBXGroup;
+			children = (
+				3FCED31625365488001C9E56 /* AppDelegate.swift */,
+				3FCED31825365488001C9E56 /* SceneDelegate.swift */,
+				3FCED31A25365488001C9E56 /* ViewController.swift */,
+				3FCED31C25365488001C9E56 /* Main.storyboard */,
+				3F2725512551BBE400793468 /* Locations&Activites.swift */,
+				3F2725532551BFBD00793468 /* CreateNewLists.swift */,
+				3F2725552551D36000793468 /* ListsofLocations&Activites.swift */,
+				3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */,
+				3FA17053254928720040FCC7 /* HomePageViewController.swift */,
+				3F3F5645253CE1D0007F853A /* CreateYourProfile.swift */,
+				3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */,
+				3FCED31F2536548A001C9E56 /* Assets.xcassets */,
+				3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */,
+				3FCED3242536548A001C9E56 /* Info.plist */,
+			);
+			path = RodaxTravel;
+			sourceTree = "<group>";
+		};
+		3FCED32C2536548A001C9E56 /* RodaxTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCED32D2536548A001C9E56 /* RodaxTravelTests.swift */,
+				3FCED32F2536548A001C9E56 /* Info.plist */,
+			);
+			path = RodaxTravelTests;
+			sourceTree = "<group>";
+		};
+		3FCED3372536548A001C9E56 /* RodaxTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */,
+				3FCED33A2536548A001C9E56 /* Info.plist */,
+			);
+			path = RodaxTravelUITests;
+			sourceTree = "<group>";
+		};
+		6035D02B7DC03D3B5705DAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14914F9F64A14888183BEEE9 /* Pods_RodaxTravel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B784E6A291CC823360A9F4C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C23499E49C2BC5DBF5FE438B /* Pods-RodaxTravel.debug.xcconfig */,
+				9344AC28CA6CA8DEDCCD63B3 /* Pods-RodaxTravel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCED31225365488001C9E56 /* RodaxTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCED33D2536548A001C9E56 /* Build configuration list for PBXNativeTarget "RodaxTravel" */;
+			buildPhases = (
+				FD7422C8A2AF9F7B758D42D9 /* [CP] Check Pods Manifest.lock */,
+				3FCED30F25365488001C9E56 /* Sources */,
+				3FCED31025365488001C9E56 /* Frameworks */,
+				3FCED31125365488001C9E56 /* Resources */,
+				690FE025F9642114E6ADF936 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RodaxTravel;
+			productName = RodaxTravel;
+			productReference = 3FCED31325365488001C9E56 /* RodaxTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FCED3282536548A001C9E56 /* RodaxTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCED3402536548A001C9E56 /* Build configuration list for PBXNativeTarget "RodaxTravelTests" */;
+			buildPhases = (
+				3FCED3252536548A001C9E56 /* Sources */,
+				3FCED3262536548A001C9E56 /* Frameworks */,
+				3FCED3272536548A001C9E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCED32B2536548A001C9E56 /* PBXTargetDependency */,
+			);
+			name = RodaxTravelTests;
+			productName = RodaxTravelTests;
+			productReference = 3FCED3292536548A001C9E56 /* RodaxTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FCED3332536548A001C9E56 /* RodaxTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCED3432536548A001C9E56 /* Build configuration list for PBXNativeTarget "RodaxTravelUITests" */;
+			buildPhases = (
+				3FCED3302536548A001C9E56 /* Sources */,
+				3FCED3312536548A001C9E56 /* Frameworks */,
+				3FCED3322536548A001C9E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCED3362536548A001C9E56 /* PBXTargetDependency */,
+			);
+			name = RodaxTravelUITests;
+			productName = RodaxTravelUITests;
+			productReference = 3FCED3342536548A001C9E56 /* RodaxTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCED30B25365488001C9E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3FCED31225365488001C9E56 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					3FCED3282536548A001C9E56 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3FCED31225365488001C9E56;
+					};
+					3FCED3332536548A001C9E56 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3FCED31225365488001C9E56;
+					};
+				};
+			};
+			buildConfigurationList = 3FCED30E25365488001C9E56 /* Build configuration list for PBXProject "RodaxTravel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCED30A25365488001C9E56;
+			productRefGroup = 3FCED31425365488001C9E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCED31225365488001C9E56 /* RodaxTravel */,
+				3FCED3282536548A001C9E56 /* RodaxTravelTests */,
+				3FCED3332536548A001C9E56 /* RodaxTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCED31125365488001C9E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCED3232536548A001C9E56 /* LaunchScreen.storyboard in Resources */,
+				3FCED3202536548A001C9E56 /* Assets.xcassets in Resources */,
+				3FCED31E25365488001C9E56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCED3272536548A001C9E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCED3322536548A001C9E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		690FE025F9642114E6ADF936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7422C8A2AF9F7B758D42D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RodaxTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCED30F25365488001C9E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */,
+				3F2725502550E0DF00793468 /* ShareTravelPlansScene.swift in Sources */,
+				3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */,
+				3FCED31B25365488001C9E56 /* ViewController.swift in Sources */,
+				3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */,
+				3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */,
+				3F3F5646253CE1D0007F853A /* CreateYourProfile.swift in Sources */,
+				3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */,
+				3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */,
+				3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCED3252536548A001C9E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCED32E2536548A001C9E56 /* RodaxTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCED3302536548A001C9E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCED3392536548A001C9E56 /* RodaxTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FCED32B2536548A001C9E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCED31225365488001C9E56 /* RodaxTravel */;
+			targetProxy = 3FCED32A2536548A001C9E56 /* PBXContainerItemProxy */;
+		};
+		3FCED3362536548A001C9E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCED31225365488001C9E56 /* RodaxTravel */;
+			targetProxy = 3FCED3352536548A001C9E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FCED31C25365488001C9E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCED31D25365488001C9E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCED3222536548A001C9E56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FCED33B2536548A001C9E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FCED33C2536548A001C9E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCED33E2536548A001C9E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23499E49C2BC5DBF5FE438B /* Pods-RodaxTravel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RodaxTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCED33F2536548A001C9E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9344AC28CA6CA8DEDCCD63B3 /* Pods-RodaxTravel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RodaxTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FCED3412536548A001C9E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RodaxTravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RodaxTravel.app/RodaxTravel";
+			};
+			name = Debug;
+		};
+		3FCED3422536548A001C9E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RodaxTravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RodaxTravel.app/RodaxTravel";
+			};
+			name = Release;
+		};
+		3FCED3442536548A001C9E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RodaxTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RodaxTravel;
+			};
+			name = Debug;
+		};
+		3FCED3452536548A001C9E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RodaxTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RodaxTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCED30E25365488001C9E56 /* Build configuration list for PBXProject "RodaxTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCED33B2536548A001C9E56 /* Debug */,
+				3FCED33C2536548A001C9E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCED33D2536548A001C9E56 /* Build configuration list for PBXNativeTarget "RodaxTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCED33E2536548A001C9E56 /* Debug */,
+				3FCED33F2536548A001C9E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCED3402536548A001C9E56 /* Build configuration list for PBXNativeTarget "RodaxTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCED3412536548A001C9E56 /* Debug */,
+				3FCED3422536548A001C9E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCED3432536548A001C9E56 /* Build configuration list for PBXNativeTarget "RodaxTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCED3442536548A001C9E56 /* Debug */,
+				3FCED3452536548A001C9E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCED30B25365488001C9E56 /* Project object */;
+}
