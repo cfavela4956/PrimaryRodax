@@ -87,27 +87,8 @@ class HomePageViewController: UIViewController, MenuControllerDelegate {
             
             self?.title = named.rawValue
             
-            switch named {
-            case .myprofile:
-                self?.myProfileController.view.isHidden = false
-                self?.myJournalController.view.isHidden = true
-                self?.covidController.view.isHidden = true
-                self?.shareTravelPlansScene.view.isHidden = true
-            case .myjournal:
-                self?.myProfileController.view.isHidden = true
-                self?.myJournalController.view.isHidden = false
-                self?.covidController.view.isHidden = true
-                self?.shareTravelPlansScene.view.isHidden = true
-            case .covid:
-                self?.myProfileController.view.isHidden = true
-                self?.myJournalController.view.isHidden = true
-                self?.covidController.view.isHidden = false
-                self?.shareTravelPlansScene.view.isHidden = true
-            case .sharetravel:
-                self?.myProfileController.view.isHidden = true
-                self?.myJournalController.view.isHidden = true
-                self?.covidController.view.isHidden = true
-                self?.shareTravelPlansScene.view.isHidden = false
+          
+         
             
             }
             
