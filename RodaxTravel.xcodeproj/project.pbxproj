@@ -13,6 +13,7 @@
 		3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725552551D36000793468 /* ListsofLocations&Activites.swift */; };
 		3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */; };
 		3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17053254928720040FCC7 /* HomePageViewController.swift */; };
+		3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */; };
 		3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31625365488001C9E56 /* AppDelegate.swift */; };
 		3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31825365488001C9E56 /* SceneDelegate.swift */; };
 		3FCED31B25365488001C9E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31A25365488001C9E56 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		3F2725552551D36000793468 /* ListsofLocations&Activites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListsofLocations&Activites.swift"; sourceTree = "<group>"; };
 		3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewViewController.swift; sourceTree = "<group>"; };
 		3FA17053254928720040FCC7 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProfileImageViewController.swift; sourceTree = "<group>"; };
 		3FCED31325365488001C9E56 /* RodaxTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodaxTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCED31625365488001C9E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCED31825365488001C9E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				3FCED31825365488001C9E56 /* SceneDelegate.swift */,
 				3FCED31A25365488001C9E56 /* ViewController.swift */,
 				3FCED31C25365488001C9E56 /* Main.storyboard */,
+				3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */,
 				3F2725512551BBE400793468 /* Locations&Activites.swift */,
 				3F2725532551BFBD00793468 /* CreateNewLists.swift */,
 				3F2725552551D36000793468 /* ListsofLocations&Activites.swift */,
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */,
+				3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */,
 				3FCED5062556FAAA001C9E56 /* Podfile.swift in Sources */,
 				3F2725502550E0DF00793468 /* ShareTravelPlansScene.swift in Sources */,
 				3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */,
