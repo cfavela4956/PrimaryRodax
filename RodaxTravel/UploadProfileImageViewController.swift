@@ -12,6 +12,11 @@ class UploadProfileImageViewController: UIViewController, UIImagePickerControlle
 
     @IBOutlet var imageView: UIImageView!
     
+    @IBAction func onDoneButtonPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "TabBarSegue", sender: self)
+    }
+    //sends user from Create Your Profile to Home Page
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

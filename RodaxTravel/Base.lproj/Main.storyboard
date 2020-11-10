@@ -10,7 +10,7 @@
         <!--Log In-->
         <scene sceneID="83w-9j-5Ad">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="s21-Gd-h8l" userLabel="Log In" customClass="ViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="s21-Gd-h8l" userLabel="Log In" customClass="OpeningViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vnf-WY-LLP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,7 +35,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Create Account"/>
                                 <connections>
-                                    <segue destination="F6f-qG-8gk" kind="show" id="hiQ-Dg-NkX"/>
+                                    <action selector="onCreateAccountButtonPressed:" destination="s21-Gd-h8l" eventType="touchUpInside" id="Nzf-ZM-3SD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,6 +43,9 @@
                         <viewLayoutGuide key="safeArea" id="3hZ-xY-q8e"/>
                     </view>
                     <navigationItem key="navigationItem" id="MAm-lg-4EI"/>
+                    <connections>
+                        <segue destination="F6f-qG-8gk" kind="showDetail" identifier="CreateProfileSegue" id="Brq-tj-yAI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u04-JW-S8M" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,7 +70,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImV-vN-edw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="259" y="1"/>
+            <point key="canvasLocation" x="-45" y="1"/>
         </scene>
         <!--Home Page-->
         <scene sceneID="ZMG-gG-bLU">
@@ -148,14 +151,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyw-gu-Yyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-597" y="1"/>
+            <point key="canvasLocation" x="1133" y="-674"/>
         </scene>
         <!--Travel Guides-->
         <scene sceneID="wmg-Me-iua">
             <objects>
                 <viewController title="Travel Guides" id="AeG-XL-wfN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mwo-qe-rdX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r25-qp-qUC">
@@ -235,9 +238,9 @@
         <!--My Journal-->
         <scene sceneID="RJq-Yf-y42">
             <objects>
-                <viewController title="My Journal" id="0H8-bj-Xh3" customClass="UploadJournalPicturesViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="My Journal" id="0H8-bj-Xh3" customClass="MyJournalViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FJa-t4-ayt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ghA-cl-pD3">
@@ -254,7 +257,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kWz-fA-Zys" kind="show" id="gqa-hA-XPD"/>
+                                    <action selector="onWriteAnEntryButtonPressed:" destination="0H8-bj-Xh3" eventType="touchUpInside" id="qsT-qK-oJd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKB-oI-crG">
@@ -287,6 +290,9 @@
                         <viewLayoutGuide key="safeArea" id="wfj-xZ-cRs"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Journal" image="square.and.pencil" catalog="system" id="BqS-ph-zBr"/>
+                    <connections>
+                        <segue destination="kWz-fA-Zys" kind="showDetail" identifier="WriteAnEntrySegue" id="j2T-mG-2Uk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ptz-NL-BXY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -521,18 +527,18 @@
             <objects>
                 <viewController title="My Rodax" id="GjF-m6-F5g" customClass="MyProfile" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ua0-Zy-Tkb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qy2-D9-3e2">
-                                <rect key="frame" x="20" y="84" width="196" height="127.99999999999999"/>
+                                <rect key="frame" x="20" y="40" width="196" height="172"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="jcf-nS-IBt"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KN6-7d-Pp0">
-                                <rect key="frame" x="224" y="128" width="45" height="21"/>
+                                <rect key="frame" x="224" y="84" width="45" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -552,7 +558,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uai-xg-i3v">
-                                <rect key="frame" x="0.0" y="299" width="414" height="597"/>
+                                <rect key="frame" x="0.0" y="299" width="414" height="543"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xWB-7d-ZRy">
@@ -591,11 +597,11 @@
             <objects>
                 <viewController id="i9d-m8-P64" customClass="MKMapViewViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tza-7p-L59">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aZa-jN-bfV">
-                                <rect key="frame" x="0.0" y="158" width="414" height="655"/>
+                                <rect key="frame" x="0.0" y="114" width="414" height="645"/>
                             </mapView>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LaR-mr-ciC">
                                 <rect key="frame" x="0.0" y="93" width="414" height="44"/>
@@ -766,7 +772,7 @@
             <objects>
                 <viewController id="F6f-qG-8gk" customClass="UploadProfileImageViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l0I-pd-rlt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complete the following fields to complete the first steps of creating a profile" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3KL-41-sIW">
@@ -815,7 +821,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sSa-54-XUp" kind="show" id="Szy-Bt-bSU"/>
+                                    <action selector="onDoneButtonPressed:" destination="F6f-qG-8gk" eventType="touchUpInside" id="pwT-WM-8T4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Your Profile!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRh-GJ-W1L">
@@ -862,6 +868,7 @@
                     <navigationItem key="navigationItem" id="ria-5w-MNB"/>
                     <connections>
                         <outlet property="imageView" destination="rZC-Ch-4lx" id="oVa-6X-pds"/>
+                        <segue destination="hTJ-4Q-ejC" kind="showDetail" identifier="TabBarSegue" id="dTX-1D-g1x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1AC-GV-KLF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -887,9 +894,6 @@
             <point key="canvasLocation" x="-1381.1594202898552" y="-674.33035714285711"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Szy-Bt-bSU"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Check logo" width="95" height="94"/>
         <image name="Forest1" width="275" height="183"/>

@@ -8,9 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OpeningViewController: UIViewController {
     
-   
+    @IBAction func onCreateAccountButtonPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "CreateProfileSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
