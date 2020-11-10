@@ -15,6 +15,8 @@
 		3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17053254928720040FCC7 /* HomePageViewController.swift */; };
 		3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */; };
 		3FA17148255B141A0040FCC7 /* MyJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */; };
+		3FA17173255B57800040FCC7 /* CovidInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */; };
+		3FA17175255B57BF0040FCC7 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */; };
 		3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31625365488001C9E56 /* AppDelegate.swift */; };
 		3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31825365488001C9E56 /* SceneDelegate.swift */; };
 		3FCED31B25365488001C9E56 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31A25365488001C9E56 /* OpeningViewController.swift */; };
@@ -54,6 +56,8 @@
 		3FA17053254928720040FCC7 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProfileImageViewController.swift; sourceTree = "<group>"; };
 		3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJournalViewController.swift; sourceTree = "<group>"; };
+		3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidInfoViewController.swift; sourceTree = "<group>"; };
+		3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		3FCED31325365488001C9E56 /* RodaxTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodaxTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCED31625365488001C9E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCED31825365488001C9E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				3FCED31825365488001C9E56 /* SceneDelegate.swift */,
 				3FCED31A25365488001C9E56 /* OpeningViewController.swift */,
 				3FCED31C25365488001C9E56 /* Main.storyboard */,
+				3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */,
+				3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */,
 				3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */,
 				3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */,
 				3FA17053254928720040FCC7 /* HomePageViewController.swift */,
@@ -354,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA17175255B57BF0040FCC7 /* WebViewViewController.swift in Sources */,
 				3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */,
 				3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */,
 				3FCED5062556FAAA001C9E56 /* Podfile.swift in Sources */,
@@ -365,6 +372,7 @@
 				3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */,
 				3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */,
 				3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */,
+				3FA17173255B57800040FCC7 /* CovidInfoViewController.swift in Sources */,
 				3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
