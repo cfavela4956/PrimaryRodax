@@ -14,6 +14,9 @@ class OpeningViewController: UIViewController {
         self.performSegue(withIdentifier: "CreateProfileSegue", sender: self)
     }
     
+    @IBAction func onLogInButtonPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "LogInSegue", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
