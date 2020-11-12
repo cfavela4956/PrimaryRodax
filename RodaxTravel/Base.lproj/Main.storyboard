@@ -74,7 +74,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImV-vN-edw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-45" y="1"/>
+            <point key="canvasLocation" x="600" y="96"/>
         </scene>
         <!--Home Page-->
         <scene sceneID="ZMG-gG-bLU">
@@ -755,6 +755,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="My Rodax" image="person.fill" catalog="system" id="5Tu-p3-E9K"/>
+                    <navigationItem key="navigationItem" id="ZSD-NG-kNm"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JzE-SB-xTX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -991,6 +992,7 @@
                                 </state>
                                 <connections>
                                     <action selector="onDoneButtonPressed:" destination="F6f-qG-8gk" eventType="touchUpInside" id="pwT-WM-8T4"/>
+                                    <segue destination="Mc1-9a-2In" kind="show" id="cru-6V-f01"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Your Profile!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRh-GJ-W1L">
@@ -1037,7 +1039,6 @@
                     <navigationItem key="navigationItem" id="ria-5w-MNB"/>
                     <connections>
                         <outlet property="imageView" destination="rZC-Ch-4lx" id="oVa-6X-pds"/>
-                        <segue destination="hTJ-4Q-ejC" kind="showDetail" identifier="TabBarSegue" id="dTX-1D-g1x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1AC-GV-KLF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1311,7 +1312,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Oi2-Ny-zXj"/>
+        <segue reference="cru-6V-f01"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Check logo" width="95" height="94"/>
