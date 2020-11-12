@@ -18,6 +18,7 @@
 		3FA17173255B57800040FCC7 /* CovidInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */; };
 		3FA17175255B57BF0040FCC7 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */; };
 		3FA1719B255BAA870040FCC7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1719A255BAA870040FCC7 /* LogInViewController.swift */; };
+		3FA1719D255CB3F50040FCC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA1719C255CB3F50040FCC7 /* GoogleService-Info.plist */; };
 		3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31625365488001C9E56 /* AppDelegate.swift */; };
 		3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31825365488001C9E56 /* SceneDelegate.swift */; };
 		3FCED31B25365488001C9E56 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31A25365488001C9E56 /* OpeningViewController.swift */; };
@@ -26,7 +27,6 @@
 		3FCED3232536548A001C9E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */; };
 		3FCED32E2536548A001C9E56 /* RodaxTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED32D2536548A001C9E56 /* RodaxTravelTests.swift */; };
 		3FCED3392536548A001C9E56 /* RodaxTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */; };
-		3FCED5062556FAAA001C9E56 /* Podfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED5052556FAAA001C9E56 /* Podfile.swift */; };
 		B4DC7A4659BADFEEFF8522A8 /* Pods_RodaxTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14914F9F64A14888183BEEE9 /* Pods_RodaxTravel.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +60,7 @@
 		3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidInfoViewController.swift; sourceTree = "<group>"; };
 		3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		3FA1719A255BAA870040FCC7 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3FA1719C255CB3F50040FCC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FCED31325365488001C9E56 /* RodaxTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodaxTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCED31625365488001C9E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCED31825365488001C9E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		3FCED3342536548A001C9E56 /* RodaxTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodaxTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodaxTravelUITests.swift; sourceTree = "<group>"; };
 		3FCED33A2536548A001C9E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FCED5052556FAAA001C9E56 /* Podfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podfile.swift; sourceTree = "<group>"; };
 		9344AC28CA6CA8DEDCCD63B3 /* Pods-RodaxTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.release.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.release.xcconfig"; sourceTree = "<group>"; };
 		C23499E49C2BC5DBF5FE438B /* Pods-RodaxTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.debug.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,7 +108,6 @@
 		3FCED30A25365488001C9E56 = {
 			isa = PBXGroup;
 			children = (
-				3FCED5052556FAAA001C9E56 /* Podfile.swift */,
 				3FCED31525365488001C9E56 /* RodaxTravel */,
 				3FCED32C2536548A001C9E56 /* RodaxTravelTests */,
 				3FCED3372536548A001C9E56 /* RodaxTravelUITests */,
@@ -149,6 +148,7 @@
 				3FCED31F2536548A001C9E56 /* Assets.xcassets */,
 				3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */,
 				3FCED3242536548A001C9E56 /* Info.plist */,
+				3FA1719C255CB3F50040FCC7 /* GoogleService-Info.plist */,
 			);
 			path = RodaxTravel;
 			sourceTree = "<group>";
@@ -295,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCED3232536548A001C9E56 /* LaunchScreen.storyboard in Resources */,
+				3FA1719D255CB3F50040FCC7 /* GoogleService-Info.plist in Resources */,
 				3FCED3202536548A001C9E56 /* Assets.xcassets in Resources */,
 				3FCED31E25365488001C9E56 /* Main.storyboard in Resources */,
 			);
@@ -366,7 +367,6 @@
 				3FA17175255B57BF0040FCC7 /* WebViewViewController.swift in Sources */,
 				3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */,
 				3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */,
-				3FCED5062556FAAA001C9E56 /* Podfile.swift in Sources */,
 				3F2725502550E0DF00793468 /* ShareTravelPlansScene.swift in Sources */,
 				3FA17148255B141A0040FCC7 /* MyJournalViewController.swift in Sources */,
 				3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */,
@@ -557,7 +557,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rodax.RodaxTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -575,7 +575,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Rodax.RodaxTravel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rodax.RodaxTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
