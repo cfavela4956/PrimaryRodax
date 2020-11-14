@@ -529,7 +529,7 @@
         <!--My Rodax-->
         <scene sceneID="YhJ-bm-J8m">
             <objects>
-                <tableViewController title="My Rodax" id="Mc1-9a-2In" sceneMemberID="viewController">
+                <tableViewController title="My Rodax" id="Mc1-9a-2In" customClass="MyRodaxProfileTableViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hwN-iS-bpW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -545,10 +545,11 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qy2-D9-3e2">
-                                                    <rect key="frame" x="10" y="33" width="196" height="128"/>
+                                                    <rect key="frame" x="10" y="33" width="140" height="128"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="196" id="jcf-nS-IBt"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="36z-Z7-5u7"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="140" id="v2N-lk-589"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome, (name)!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFv-Rc-brz">
@@ -559,11 +560,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2h-iO-5P3">
-                                                    <rect key="frame" x="191" y="131" width="143" height="30"/>
+                                                    <rect key="frame" x="192" y="151" width="147" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Upload Profile Image">
+                                                    <state key="normal" title="Change Profile Image">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="didTapUploadPictureButton" destination="Mc1-9a-2In" eventType="touchUpInside" id="U2Y-0H-MUx"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.441211664" green="0.63381619339999995" blue="0.79568086140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -756,6 +760,9 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="My Rodax" image="person.fill" catalog="system" id="5Tu-p3-E9K"/>
                     <navigationItem key="navigationItem" id="ZSD-NG-kNm"/>
+                    <connections>
+                        <outlet property="profileView" destination="qy2-D9-3e2" id="uoI-8a-av6"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JzE-SB-xTX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -992,7 +999,6 @@
                                 </state>
                                 <connections>
                                     <action selector="onDoneButtonPressed:" destination="F6f-qG-8gk" eventType="touchUpInside" id="pwT-WM-8T4"/>
-                                    <segue destination="Mc1-9a-2In" kind="show" id="cru-6V-f01"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Your Profile!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRh-GJ-W1L">
@@ -1039,6 +1045,7 @@
                     <navigationItem key="navigationItem" id="ria-5w-MNB"/>
                     <connections>
                         <outlet property="imageView" destination="rZC-Ch-4lx" id="oVa-6X-pds"/>
+                        <segue destination="hTJ-4Q-ejC" kind="showDetail" identifier="TabBarSegue" id="VmL-LU-dfH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1AC-GV-KLF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1079,6 +1086,12 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcE-aX-0VP">
+                                <rect key="frame" x="74" y="685" width="266" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="More Info on Covid-19 in Chicago"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1091,12 +1104,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Covid-19" image="info.circle" catalog="system" selectedImage="info.circle" id="VyA-PU-Q0d"/>
                     <connections>
+                        <outlet property="onMoreInfoPressed" destination="CcE-aX-0VP" id="ilG-ng-Rpl"/>
                         <outlet property="webview" destination="Lxj-94-ebd" id="CY1-F5-0Zh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sto-bA-C7X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-865" y="1"/>
+            <point key="canvasLocation" x="-865.21739130434787" y="0.6696428571428571"/>
         </scene>
         <!--Log In View Controller-->
         <scene sceneID="B4N-fp-Bof">
@@ -1312,7 +1326,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cru-6V-f01"/>
+        <segue reference="VmL-LU-dfH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Check logo" width="95" height="94"/>
