@@ -5,7 +5,6 @@
 //  Created by Student on 10/27/20.
 //  Copyright © 2020 Student. All rights reserved.
 //
-import SideMenu
 import UIKit
 
 class HomePageViewController: UIViewController {

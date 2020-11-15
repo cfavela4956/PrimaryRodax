@@ -29,7 +29,7 @@
 		3FCED3232536548A001C9E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */; };
 		3FCED32E2536548A001C9E56 /* RodaxTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED32D2536548A001C9E56 /* RodaxTravelTests.swift */; };
 		3FCED3392536548A001C9E56 /* RodaxTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */; };
-		B4DC7A4659BADFEEFF8522A8 /* Pods_RodaxTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14914F9F64A14888183BEEE9 /* Pods_RodaxTravel.framework */; };
+		D1D7CC1BA4DD701746A53516 /* Pods_RodaxTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10D475EFDC7AF3528F47676 /* Pods_RodaxTravel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14914F9F64A14888183BEEE9 /* Pods_RodaxTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RodaxTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTravelPlansScene.swift; sourceTree = "<group>"; };
 		3F2725512551BBE400793468 /* Locations&Activites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locations&Activites.swift"; sourceTree = "<group>"; };
 		3F2725532551BFBD00793468 /* CreateNewLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewLists.swift; sourceTree = "<group>"; };
@@ -79,8 +78,9 @@
 		3FCED3342536548A001C9E56 /* RodaxTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodaxTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodaxTravelUITests.swift; sourceTree = "<group>"; };
 		3FCED33A2536548A001C9E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9344AC28CA6CA8DEDCCD63B3 /* Pods-RodaxTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.release.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.release.xcconfig"; sourceTree = "<group>"; };
-		C23499E49C2BC5DBF5FE438B /* Pods-RodaxTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.debug.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4AE44E24F9E4926013DA35 /* Pods-RodaxTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.debug.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		B7949C3E8EA940AFEDEBD4FE /* Pods-RodaxTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.release.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.release.xcconfig"; sourceTree = "<group>"; };
+		D10D475EFDC7AF3528F47676 /* Pods_RodaxTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RodaxTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DC7A4659BADFEEFF8522A8 /* Pods_RodaxTravel.framework in Frameworks */,
+				D1D7CC1BA4DD701746A53516 /* Pods_RodaxTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19231606E603396519893819 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D10D475EFDC7AF3528F47676 /* Pods_RodaxTravel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3FCED30A25365488001C9E56 = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +125,7 @@
 				3FCED3372536548A001C9E56 /* RodaxTravelUITests */,
 				3FCED31425365488001C9E56 /* Products */,
 				B784E6A291CC823360A9F4C1 /* Pods */,
-				6035D02B7DC03D3B5705DAF1 /* Frameworks */,
+				19231606E603396519893819 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,19 +185,11 @@
 			path = RodaxTravelUITests;
 			sourceTree = "<group>";
 		};
-		6035D02B7DC03D3B5705DAF1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				14914F9F64A14888183BEEE9 /* Pods_RodaxTravel.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B784E6A291CC823360A9F4C1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C23499E49C2BC5DBF5FE438B /* Pods-RodaxTravel.debug.xcconfig */,
-				9344AC28CA6CA8DEDCCD63B3 /* Pods-RodaxTravel.release.xcconfig */,
+				AC4AE44E24F9E4926013DA35 /* Pods-RodaxTravel.debug.xcconfig */,
+				B7949C3E8EA940AFEDEBD4FE /* Pods-RodaxTravel.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -201,11 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FCED33D2536548A001C9E56 /* Build configuration list for PBXNativeTarget "RodaxTravel" */;
 			buildPhases = (
-				FD7422C8A2AF9F7B758D42D9 /* [CP] Check Pods Manifest.lock */,
+				9D0D22E16AEF4C0A1C8105A8 /* [CP] Check Pods Manifest.lock */,
 				3FCED30F25365488001C9E56 /* Sources */,
 				3FCED31025365488001C9E56 /* Frameworks */,
 				3FCED31125365488001C9E56 /* Resources */,
-				690FE025F9642114E6ADF936 /* [CP] Embed Pods Frameworks */,
+				CAE0E3A155EA5289BD2378A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,24 +324,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		690FE025F9642114E6ADF936 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD7422C8A2AF9F7B758D42D9 /* [CP] Check Pods Manifest.lock */ = {
+		9D0D22E16AEF4C0A1C8105A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +344,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE0E3A155EA5289BD2378A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -556,7 +556,7 @@
 		};
 		3FCED33E2536548A001C9E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C23499E49C2BC5DBF5FE438B /* Pods-RodaxTravel.debug.xcconfig */;
+			baseConfigurationReference = AC4AE44E24F9E4926013DA35 /* Pods-RodaxTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,7 +574,7 @@
 		};
 		3FCED33F2536548A001C9E56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9344AC28CA6CA8DEDCCD63B3 /* Pods-RodaxTravel.release.xcconfig */;
+			baseConfigurationReference = B7949C3E8EA940AFEDEBD4FE /* Pods-RodaxTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
