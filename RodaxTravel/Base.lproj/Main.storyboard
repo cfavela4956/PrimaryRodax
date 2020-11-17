@@ -938,13 +938,6 @@
                                     <action selector="onDoneButtonPressed:" destination="F6f-qG-8gk" eventType="touchUpInside" id="pwT-WM-8T4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Your Profile!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRh-GJ-W1L">
-                                <rect key="frame" x="77" y="77" width="281" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rZC-Ch-4lx">
                                 <rect key="frame" x="39" y="188" width="157" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -975,6 +968,13 @@
                                     <action selector="didTapButton" destination="F6f-qG-8gk" eventType="touchUpInside" id="mFD-Aj-3lo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Your Profile!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRh-GJ-W1L">
+                                <rect key="frame" x="57" y="70" width="321" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.060808783932675463" green="0.54246884812415064" blue="0.62466127044365483" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="40W-X2-ii7"/>
@@ -1023,17 +1023,15 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Remain up-to-date with Covid-19 restrictions by clicking down below" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xo3-nq-upC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Remain up-to-date with Covid-19 restrictions by clicking down below" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xo3-nq-upC">
                                 <rect key="frame" x="37" y="599" width="350" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OPh-cf-ngy">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OPh-cf-ngy">
                                 <rect key="frame" x="42" y="238" width="330" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Remember to always:     Wash your hands
 Wear a mask
@@ -1053,29 +1051,36 @@ Keep 6ft apart
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="More Info on Covid-19 in Chicago"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="We want you to feel comfortable and socialize safely." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aoR-Qp-Q6t">
-                                <rect key="frame" x="52" y="97" width="320" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="protectHealth" translatesAutoresizingMaskIntoConstraints="NO" id="WZy-nJ-TeD">
+                                <rect key="frame" x="54" y="409" width="307" height="161"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="We want you to feel comfortable and socialize safely." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aoR-Qp-Q6t">
+                                <rect key="frame" x="47" y="97" width="320" height="133"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="protectHealth" translatesAutoresizingMaskIntoConstraints="NO" id="WZy-nJ-TeD">
-                                <rect key="frame" x="54" y="409" width="307" height="161"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="CcE-aX-0VP" firstAttribute="top" secondItem="lO5-a8-gSC" secondAttribute="top" constant="685" id="0C9-iP-xfx"/>
+                            <constraint firstItem="WZy-nJ-TeD" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" constant="54" id="2Er-2M-pTI"/>
                             <constraint firstItem="lO5-a8-gSC" firstAttribute="trailing" secondItem="CcE-aX-0VP" secondAttribute="trailing" constant="74" id="BtN-tg-ejs"/>
+                            <constraint firstItem="WZy-nJ-TeD" firstAttribute="top" secondItem="OPh-cf-ngy" secondAttribute="bottom" constant="8" id="DDi-b7-Blm"/>
+                            <constraint firstItem="xo3-nq-upC" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" constant="37" id="HjH-EE-HM8"/>
+                            <constraint firstItem="OPh-cf-ngy" firstAttribute="top" secondItem="aoR-Qp-Q6t" secondAttribute="bottom" constant="8" id="M4p-8k-jXg"/>
+                            <constraint firstItem="WZy-nJ-TeD" firstAttribute="top" secondItem="OPh-cf-ngy" secondAttribute="bottom" constant="8" id="QDj-Rc-zEj"/>
                             <constraint firstItem="CcE-aX-0VP" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" constant="74" id="THP-cx-R5t"/>
+                            <constraint firstItem="OPh-cf-ngy" firstAttribute="top" secondItem="aoR-Qp-Q6t" secondAttribute="bottom" constant="8" id="ZLl-Oq-Swr"/>
                             <constraint firstItem="lO5-a8-gSC" firstAttribute="bottom" secondItem="CcE-aX-0VP" secondAttribute="bottom" constant="44" id="aOi-Jw-9nP"/>
                             <constraint firstItem="Lxj-94-ebd" firstAttribute="trailing" secondItem="lO5-a8-gSC" secondAttribute="trailing" id="bM9-6W-obO"/>
+                            <constraint firstItem="aoR-Qp-Q6t" firstAttribute="top" secondItem="lO5-a8-gSC" secondAttribute="top" constant="97" id="e71-eo-aNL"/>
                             <constraint firstItem="Lxj-94-ebd" firstAttribute="top" secondItem="C8k-S4-mWb" secondAttribute="top" id="ioN-dL-AMb"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="top" secondItem="xo3-nq-upC" secondAttribute="bottom" constant="8" id="oOQ-wa-PKg"/>
                             <constraint firstItem="Lxj-94-ebd" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" id="omc-1E-B8P"/>
+                            <constraint firstItem="lO5-a8-gSC" firstAttribute="trailing" secondItem="xo3-nq-upC" secondAttribute="trailing" constant="27" id="tPU-bJ-a2z"/>
                             <constraint firstAttribute="bottom" secondItem="Lxj-94-ebd" secondAttribute="bottom" id="v6V-kx-VNC"/>
+                            <constraint firstItem="lO5-a8-gSC" firstAttribute="trailing" secondItem="WZy-nJ-TeD" secondAttribute="trailing" constant="53" id="z52-uF-a3o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lO5-a8-gSC"/>
                     </view>
@@ -1668,7 +1673,7 @@ Keep 6ft apart
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Oi2-Ny-zXj"/>
+        <segue reference="VmL-LU-dfH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Check logo" width="95" height="94"/>
