@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "A4C71D6D-ACAB-41F3-B1EC-D6A140BF4132"
+   uuid = "0408859F-9C3D-4577-89C0-B98993741805"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B3C5FFB6-CD2B-4D52-B8E6-3D9553CBB671"
+            uuid = "9B10B0A7-26F9-4E63-9BB7-864C04143F74"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RodaxTravel/UploadJournalPicturesViewController.swift"
+            filePath = "RodaxTravel/CovidInfoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "CovidInfoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9B10B0A7-26F9-4E63-9BB7-864C04143F74 - b1425e4a64b5f9c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RodaxTravel.CovidInfoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RodaxTravel.CovidInfoViewController"
+                  moduleName = "RodaxTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/PrimaryRodax/RodaxTravel/CovidInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "291">
+               </Location>
+               <Location
+                  uuid = "9B10B0A7-26F9-4E63-9BB7-864C04143F74 - 218eaf52362b6ff7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RodaxTravel.CovidInfoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RodaxTravel.CovidInfoViewController&gt;"
+                  moduleName = "RodaxTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/PrimaryRodax/RodaxTravel/CovidInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "223">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

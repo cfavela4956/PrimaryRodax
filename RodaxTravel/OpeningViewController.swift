@@ -28,6 +28,8 @@ class OpeningViewController: UIViewController {
         print("C")
         print("D")
         print("E")
+        print("F")
+        print("G")
         
     }
    

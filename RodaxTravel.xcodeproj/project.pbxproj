@@ -29,6 +29,7 @@
 		3FCED3232536548A001C9E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */; };
 		3FCED32E2536548A001C9E56 /* RodaxTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED32D2536548A001C9E56 /* RodaxTravelTests.swift */; };
 		3FCED3392536548A001C9E56 /* RodaxTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */; };
+		3FCED544256306A4001C9E56 /* TravelGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED543256306A4001C9E56 /* TravelGuidesViewController.swift */; };
 		D1D7CC1BA4DD701746A53516 /* Pods_RodaxTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10D475EFDC7AF3528F47676 /* Pods_RodaxTravel.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		3FCED3342536548A001C9E56 /* RodaxTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodaxTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCED3382536548A001C9E56 /* RodaxTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodaxTravelUITests.swift; sourceTree = "<group>"; };
 		3FCED33A2536548A001C9E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCED543256306A4001C9E56 /* TravelGuidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGuidesViewController.swift; sourceTree = "<group>"; };
 		AC4AE44E24F9E4926013DA35 /* Pods-RodaxTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.debug.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.debug.xcconfig"; sourceTree = "<group>"; };
 		B7949C3E8EA940AFEDEBD4FE /* Pods-RodaxTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodaxTravel.release.xcconfig"; path = "Target Support Files/Pods-RodaxTravel/Pods-RodaxTravel.release.xcconfig"; sourceTree = "<group>"; };
 		D10D475EFDC7AF3528F47676 /* Pods_RodaxTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RodaxTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 				3FCED31825365488001C9E56 /* SceneDelegate.swift */,
 				3FCED31A25365488001C9E56 /* OpeningViewController.swift */,
 				3FCED31C25365488001C9E56 /* Main.storyboard */,
+				3FCED543256306A4001C9E56 /* TravelGuidesViewController.swift */,
 				3FA171C8256091AD0040FCC7 /* ReviewPageTableViewController.swift */,
 				3FA171C625608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift */,
 				3FA1719A255BAA870040FCC7 /* LogInViewController.swift */,
@@ -378,6 +381,7 @@
 				3FA17148255B141A0040FCC7 /* MyJournalViewController.swift in Sources */,
 				3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */,
 				3FCED31B25365488001C9E56 /* OpeningViewController.swift in Sources */,
+				3FCED544256306A4001C9E56 /* TravelGuidesViewController.swift in Sources */,
 				3FA171C725608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift in Sources */,
 				3FA1719B255BAA870040FCC7 /* LogInViewController.swift in Sources */,
 				3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */,
