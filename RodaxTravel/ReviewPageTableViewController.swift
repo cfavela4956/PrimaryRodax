@@ -29,6 +29,8 @@ class ReviewPageTableViewController: UITableViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
 print("Ben is cool")
+            
+            
         }
 
         func leaveViewController() {
