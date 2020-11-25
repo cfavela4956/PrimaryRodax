@@ -20,20 +20,6 @@ class OpeningViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("heyo")
-        print("hola")
-        print("yo")
-        print("A")
-        print("B")
-        print("C")
-        print("D")
-        print("E")
-        print("F")
-        print("G")
-        print("H")
-        print("testing")
-        print("K")
-        print("L")
         
     }
    
