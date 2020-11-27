@@ -36,7 +36,7 @@ func centerToLocation(location: CLLocation) {
     }
     
     @IBAction func onParksButtonPressed(_ sender: Any) {
-        parksSearch()
+          parksSearch()
     }
     
     func parksSearch()
@@ -70,6 +70,40 @@ func centerToLocation(location: CLLocation) {
             }
         }
     }
-    
+    @IBAction func onRestaurantsButtonPressed(_ sender: Any) {
+           restaurantsSearch()
+       }
+       
+       func restaurantsSearch()
+          {
+              print("restaurants found")
+              
+              let request = MKLocalSearch.Request()
+              request.naturalLanguageQuery = "restaurant"
+              request.region = mapView.region
+              request.resultTypes = .pointOfInterest
+              let search = MKLocalSearch(request: request)
+              search.start { (response, error) in
+                  guard error == nil else {
+                      print(error)
+                      return
+                  }
+                  let places = response?.mapItems
+                  print(places)
+                  
+                  let allAnnotations = self.mapView.annotations
+                  self.mapView.removeAnnotations(allAnnotations)
+                  
+                  for place in places! {
+                      let annotation = MKPointAnnotation()
+                      annotation.coordinate = place.placemark.coordinate
+                      annotation.title = place.placemark.name
+                      annotation.subtitle = place.placemark.title
+                      self.mapView.addAnnotation(annotation)
+                      
+                      
+                  }
+              }
+          }
  
 }

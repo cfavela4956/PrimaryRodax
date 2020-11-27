@@ -787,6 +787,24 @@
                                 <rect key="frame" x="0.0" y="35" width="414" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiR-4m-ZqV">
+                                <rect key="frame" x="20" y="101" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Parks"/>
+                                <connections>
+                                    <action selector="onParksButtonPressed:" destination="i9d-m8-P64" eventType="touchUpInside" id="W7c-T7-gAc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gz-Dm-rzE">
+                                <rect key="frame" x="90" y="101" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Restaurants"/>
+                                <connections>
+                                    <action selector="onRestaurantsButtonPressed:" destination="i9d-m8-P64" eventType="touchUpInside" id="yZe-C3-dcj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.43818840380000001" green="0.78407245869999997" blue="0.79216921330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
