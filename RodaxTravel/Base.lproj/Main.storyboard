@@ -68,10 +68,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="i9d-m8-P64" kind="relationship" relationship="viewControllers" id="Cq9-9c-GA3"/>
-                        <segue destination="AeG-XL-wfN" kind="relationship" relationship="viewControllers" id="mOD-gJ-WEs"/>
                         <segue destination="dA6-5o-FPY" kind="relationship" relationship="viewControllers" id="GcB-2R-5n1"/>
                         <segue destination="e7c-9S-V4E" kind="relationship" relationship="viewControllers" id="U6F-1H-smU"/>
                         <segue destination="Mc1-9a-2In" kind="relationship" relationship="viewControllers" id="FNr-q2-CPd"/>
+                        <segue destination="tFn-Bx-cKQ" kind="relationship" relationship="viewControllers" id="nFm-YJ-DWu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImV-vN-edw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -83,7 +83,7 @@
             <objects>
                 <viewController title="Travel Guides" id="AeG-XL-wfN" customClass="TravelGuidesViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mwo-qe-rdX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngW-ns-3NV">
@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QSZ-wl-7BB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="87" y="1253"/>
+            <point key="canvasLocation" x="793" y="1938"/>
         </scene>
         <!--My Journal-->
         <scene sceneID="RJq-Yf-y42">
@@ -1771,6 +1771,103 @@
             </objects>
             <point key="canvasLocation" x="1558" y="1383"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="4u7-Tr-dDO">
+            <objects>
+                <viewController id="tFn-Bx-cKQ" customClass="HomePageActivitiesViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="crL-Sf-qZI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kX8-h0-dwD">
+                                <rect key="frame" x="0.0" y="124" width="414" height="593"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLT-bh-hgS">
+                                        <rect key="frame" x="177" y="162" width="59" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Bye"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="aLT-bh-hgS" firstAttribute="top" secondItem="kX8-h0-dwD" secondAttribute="top" constant="162" id="8QL-Vj-6ce"/>
+                                    <constraint firstItem="aLT-bh-hgS" firstAttribute="centerX" secondItem="kX8-h0-dwD" secondAttribute="centerX" id="ziL-5l-Yb2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ODZ-3Z-Kt8">
+                                <rect key="frame" x="0.0" y="124" width="414" height="599"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUj-go-N7b">
+                                        <rect key="frame" x="96" y="103" width="222" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="hello"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="BUj-go-N7b" firstAttribute="top" secondItem="ODZ-3Z-Kt8" secondAttribute="top" constant="103" id="XM1-wD-gnG"/>
+                                    <constraint firstItem="BUj-go-N7b" firstAttribute="leading" secondItem="ODZ-3Z-Kt8" secondAttribute="leading" constant="96" id="qE7-kk-FeU"/>
+                                    <constraint firstItem="BUj-go-N7b" firstAttribute="centerX" secondItem="ODZ-3Z-Kt8" secondAttribute="centerX" id="rQh-4e-C6i"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t0F-MG-EXh" userLabel="View3">
+                                <rect key="frame" x="0.0" y="124" width="414" height="593"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdU-pb-Y39">
+                                        <rect key="frame" x="172" y="320" width="71" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Adios"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mdU-pb-Y39" firstAttribute="top" secondItem="t0F-MG-EXh" secondAttribute="top" constant="323" id="8Dq-Ve-eLg"/>
+                                    <constraint firstItem="mdU-pb-Y39" firstAttribute="centerX" secondItem="t0F-MG-EXh" secondAttribute="centerX" id="cKE-nk-eFg"/>
+                                </constraints>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ToC-9v-GXe">
+                                <rect key="frame" x="56" y="44" width="302" height="32"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="Virtual"/>
+                                    <segment title="In-Person"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlChanged:" destination="tFn-Bx-cKQ" eventType="valueChanged" id="a2r-sX-oxD"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="top" secondItem="ToC-9v-GXe" secondAttribute="bottom" constant="8" id="1JM-pJ-igE"/>
+                            <constraint firstItem="CFy-Bc-2TY" firstAttribute="bottom" secondItem="ODZ-3Z-Kt8" secondAttribute="bottom" constant="36" id="4OJ-c4-npd"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="leading" secondItem="t0F-MG-EXh" secondAttribute="leading" id="6TN-ls-pwX"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="leading" secondItem="CFy-Bc-2TY" secondAttribute="leading" id="7QZ-jM-0lv"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="trailing" secondItem="t0F-MG-EXh" secondAttribute="trailing" id="9Qu-4s-PaU"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="top" secondItem="t0F-MG-EXh" secondAttribute="top" id="CD8-NU-2kj"/>
+                            <constraint firstItem="ToC-9v-GXe" firstAttribute="leading" secondItem="CFy-Bc-2TY" secondAttribute="leading" constant="63" id="Efe-7o-NkJ"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="top" secondItem="crL-Sf-qZI" secondAttribute="top" constant="124" id="HI5-sh-9cx"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="trailing" secondItem="kX8-h0-dwD" secondAttribute="trailing" id="PRd-PX-npM"/>
+                            <constraint firstItem="CFy-Bc-2TY" firstAttribute="trailing" secondItem="ToC-9v-GXe" secondAttribute="trailing" constant="49" id="ad1-rB-dZQ"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="centerX" secondItem="crL-Sf-qZI" secondAttribute="centerX" id="eIv-mo-8l5"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="top" secondItem="kX8-h0-dwD" secondAttribute="top" id="kxk-KY-wLB"/>
+                            <constraint firstItem="ODZ-3Z-Kt8" firstAttribute="leading" secondItem="kX8-h0-dwD" secondAttribute="leading" id="nfW-rz-qqR"/>
+                            <constraint firstItem="t0F-MG-EXh" firstAttribute="bottom" secondItem="kX8-h0-dwD" secondAttribute="bottom" id="pUz-sh-VMx"/>
+                            <constraint firstItem="CFy-Bc-2TY" firstAttribute="bottom" secondItem="t0F-MG-EXh" secondAttribute="bottom" constant="42" id="pcj-X1-4Bw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CFy-Bc-2TY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="PUj-bX-klc"/>
+                    <connections>
+                        <outlet property="view1" destination="kX8-h0-dwD" id="Svs-cO-C7c"/>
+                        <outlet property="view2" destination="ODZ-3Z-Kt8" id="cJm-Bu-1vF"/>
+                        <outlet property="view3" destination="t0F-MG-EXh" id="VOf-wG-DxY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J19-Kh-VzT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58" y="1277"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="VmL-LU-dfH"/>
@@ -1793,6 +1890,7 @@
         <image name="envelope" catalog="system" width="128" height="93"/>
         <image name="hand.thumbsup" catalog="system" width="128" height="128"/>
         <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="house" catalog="system" width="128" height="110"/>
         <image name="img_131108" width="808" height="980"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="list.bullet" catalog="system" width="128" height="88"/>
