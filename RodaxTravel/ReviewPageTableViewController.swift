@@ -22,7 +22,7 @@ class ReviewPageTableViewController: UITableViewController {
         
         
         view.settings.totalStars = 5
-        view.settings.starSize = 17
+        view.settings.starSize = 35
         view.settings.starMargin = 3.3
         view.settings.fillMode = .full
         
