@@ -21,6 +21,14 @@
 		3FA1719D255CB3F50040FCC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA1719C255CB3F50040FCC7 /* GoogleService-Info.plist */; };
 		3FA171C725608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA171C625608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift */; };
 		3FA171C9256091AD0040FCC7 /* ReviewPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA171C8256091AD0040FCC7 /* ReviewPageTableViewController.swift */; };
+		3FB3EE6C25743DE1005AF101 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE6B25743DE1005AF101 /* RegisterViewController.swift */; };
+		3FB3EE6E25743E14005AF101 /* ChatLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE6D25743E14005AF101 /* ChatLoginViewController.swift */; };
+		3FB3EE7125743E53005AF101 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE7025743E53005AF101 /* ConversationViewController.swift */; };
+		3FB3EE7325743E7B005AF101 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE7225743E7B005AF101 /* PhotoViewerViewController.swift */; };
+		3FB3EE7525743E87005AF101 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE7425743E87005AF101 /* VideoPlayerViewController.swift */; };
+		3FB3EE7725743E94005AF101 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE7625743E94005AF101 /* NewConversationViewController.swift */; };
+		3FB3EE7925743EA9005AF101 /* ChatProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE7825743EA9005AF101 /* ChatProfileViewController.swift */; };
+		3FB3EE7B25743F3F005AF101 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3EE7A25743F3F005AF101 /* Extensions.swift */; };
 		3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31625365488001C9E56 /* AppDelegate.swift */; };
 		3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31825365488001C9E56 /* SceneDelegate.swift */; };
 		3FCED31B25365488001C9E56 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCED31A25365488001C9E56 /* OpeningViewController.swift */; };
@@ -65,6 +73,14 @@
 		3FA1719C255CB3F50040FCC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FA171C625608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRodaxProfileTableViewController.swift; sourceTree = "<group>"; };
 		3FA171C8256091AD0040FCC7 /* ReviewPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPageTableViewController.swift; sourceTree = "<group>"; };
+		3FB3EE6B25743DE1005AF101 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3FB3EE6D25743E14005AF101 /* ChatLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLoginViewController.swift; sourceTree = "<group>"; };
+		3FB3EE7025743E53005AF101 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		3FB3EE7225743E7B005AF101 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		3FB3EE7425743E87005AF101 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		3FB3EE7625743E94005AF101 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		3FB3EE7825743EA9005AF101 /* ChatProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatProfileViewController.swift; sourceTree = "<group>"; };
+		3FB3EE7A25743F3F005AF101 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3FCED31325365488001C9E56 /* RodaxTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodaxTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCED31625365488001C9E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCED31825365488001C9E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +135,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3FB3EE6A25743DB2005AF101 /* Chat Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3EE7025743E53005AF101 /* ConversationViewController.swift */,
+				3FB3EE6F25743E30005AF101 /* Login */,
+				3FB3EE7225743E7B005AF101 /* PhotoViewerViewController.swift */,
+				3FB3EE7425743E87005AF101 /* VideoPlayerViewController.swift */,
+				3FB3EE7625743E94005AF101 /* NewConversationViewController.swift */,
+				3FB3EE7825743EA9005AF101 /* ChatProfileViewController.swift */,
+			);
+			path = "Chat Feature";
+			sourceTree = "<group>";
+		};
+		3FB3EE6F25743E30005AF101 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3EE6D25743E14005AF101 /* ChatLoginViewController.swift */,
+				3FB3EE6B25743DE1005AF101 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3FB3EE7C25743F52005AF101 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FCED31625365488001C9E56 /* AppDelegate.swift */,
+				3FCED31825365488001C9E56 /* SceneDelegate.swift */,
+				3FB3EE7A25743F3F005AF101 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FB3EE7D25743F71005AF101 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCED31A25365488001C9E56 /* OpeningViewController.swift */,
+				3FCED543256306A4001C9E56 /* TravelGuidesViewController.swift */,
+				3FA171C8256091AD0040FCC7 /* ReviewPageTableViewController.swift */,
+				3FA171C625608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift */,
+				3FA1719A255BAA870040FCC7 /* LogInViewController.swift */,
+				3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */,
+				3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */,
+				3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */,
+				3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */,
+				3FA17053254928720040FCC7 /* HomePageViewController.swift */,
+				3F2725512551BBE400793468 /* Locations&Activites.swift */,
+				3F2725532551BFBD00793468 /* CreateNewLists.swift */,
+				3F2725552551D36000793468 /* ListsofLocations&Activites.swift */,
+				3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */,
+				3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		3FCED30A25365488001C9E56 = {
 			isa = PBXGroup;
 			children = (
@@ -144,24 +214,10 @@
 		3FCED31525365488001C9E56 /* RodaxTravel */ = {
 			isa = PBXGroup;
 			children = (
-				3FCED31625365488001C9E56 /* AppDelegate.swift */,
-				3FCED31825365488001C9E56 /* SceneDelegate.swift */,
-				3FCED31A25365488001C9E56 /* OpeningViewController.swift */,
+				3FB3EE7C25743F52005AF101 /* Resources */,
+				3FB3EE6A25743DB2005AF101 /* Chat Feature */,
+				3FB3EE7D25743F71005AF101 /* Controllers */,
 				3FCED31C25365488001C9E56 /* Main.storyboard */,
-				3FCED543256306A4001C9E56 /* TravelGuidesViewController.swift */,
-				3FA171C8256091AD0040FCC7 /* ReviewPageTableViewController.swift */,
-				3FA171C625608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift */,
-				3FA1719A255BAA870040FCC7 /* LogInViewController.swift */,
-				3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */,
-				3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */,
-				3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */,
-				3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */,
-				3FA17053254928720040FCC7 /* HomePageViewController.swift */,
-				3F2725512551BBE400793468 /* Locations&Activites.swift */,
-				3F2725532551BFBD00793468 /* CreateNewLists.swift */,
-				3F2725552551D36000793468 /* ListsofLocations&Activites.swift */,
-				3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */,
-				3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */,
 				3FCED31F2536548A001C9E56 /* Assets.xcassets */,
 				3FCED3212536548A001C9E56 /* LaunchScreen.storyboard */,
 				3FCED3242536548A001C9E56 /* Info.plist */,
@@ -375,18 +431,26 @@
 			files = (
 				3FA17175255B57BF0040FCC7 /* WebViewViewController.swift in Sources */,
 				3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */,
+				3FB3EE7125743E53005AF101 /* ConversationViewController.swift in Sources */,
 				3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */,
 				3F2725502550E0DF00793468 /* ShareTravelPlansScene.swift in Sources */,
 				3FA171C9256091AD0040FCC7 /* ReviewPageTableViewController.swift in Sources */,
 				3FA17148255B141A0040FCC7 /* MyJournalViewController.swift in Sources */,
+				3FB3EE7525743E87005AF101 /* VideoPlayerViewController.swift in Sources */,
 				3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */,
 				3FCED31B25365488001C9E56 /* OpeningViewController.swift in Sources */,
 				3FCED544256306A4001C9E56 /* TravelGuidesViewController.swift in Sources */,
+				3FB3EE6E25743E14005AF101 /* ChatLoginViewController.swift in Sources */,
+				3FB3EE6C25743DE1005AF101 /* RegisterViewController.swift in Sources */,
 				3FA171C725608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift in Sources */,
 				3FA1719B255BAA870040FCC7 /* LogInViewController.swift in Sources */,
+				3FB3EE7725743E94005AF101 /* NewConversationViewController.swift in Sources */,
 				3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */,
 				3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */,
+				3FB3EE7925743EA9005AF101 /* ChatProfileViewController.swift in Sources */,
 				3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */,
+				3FB3EE7B25743F3F005AF101 /* Extensions.swift in Sources */,
+				3FB3EE7325743E7B005AF101 /* PhotoViewerViewController.swift in Sources */,
 				3FCED31725365488001C9E56 /* AppDelegate.swift in Sources */,
 				3FA17173255B57800040FCC7 /* CovidInfoViewController.swift in Sources */,
 				3FCED31925365488001C9E56 /* SceneDelegate.swift in Sources */,
