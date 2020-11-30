@@ -12,6 +12,7 @@
 		3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725532551BFBD00793468 /* CreateNewLists.swift */; };
 		3F2725562551D36000793468 /* ListsofLocations&Activites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2725552551D36000793468 /* ListsofLocations&Activites.swift */; };
 		3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */; };
+		3F6BE6FB25746800003BDD2A /* MapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BE6FA25746800003BDD2A /* MapSearchViewController.swift */; };
 		3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17053254928720040FCC7 /* HomePageViewController.swift */; };
 		3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */; };
 		3FA17148255B141A0040FCC7 /* MyJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */; };
@@ -64,6 +65,7 @@
 		3F2725532551BFBD00793468 /* CreateNewLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewLists.swift; sourceTree = "<group>"; };
 		3F2725552551D36000793468 /* ListsofLocations&Activites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListsofLocations&Activites.swift"; sourceTree = "<group>"; };
 		3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewViewController.swift; sourceTree = "<group>"; };
+		3F6BE6FA25746800003BDD2A /* MapSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchViewController.swift; sourceTree = "<group>"; };
 		3FA17053254928720040FCC7 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProfileImageViewController.swift; sourceTree = "<group>"; };
 		3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJournalViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				3FA17053254928720040FCC7 /* HomePageViewController.swift */,
 				3F2725512551BBE400793468 /* Locations&Activites.swift */,
 				3F2725532551BFBD00793468 /* CreateNewLists.swift */,
+				3F6BE6FA25746800003BDD2A /* MapSearchViewController.swift */,
 				3F2725552551D36000793468 /* ListsofLocations&Activites.swift */,
 				3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */,
 				3F27254F2550E0DF00793468 /* ShareTravelPlansScene.swift */,
@@ -448,6 +451,7 @@
 				3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */,
 				3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */,
 				3FB3EE7925743EA9005AF101 /* ChatProfileViewController.swift in Sources */,
+				3F6BE6FB25746800003BDD2A /* MapSearchViewController.swift in Sources */,
 				3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */,
 				3FB3EE7B25743F3F005AF101 /* Extensions.swift in Sources */,
 				3FB3EE7325743E7B005AF101 /* PhotoViewerViewController.swift in Sources */,

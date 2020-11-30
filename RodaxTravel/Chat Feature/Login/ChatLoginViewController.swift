@@ -123,7 +123,7 @@ class ChatLoginViewController: UIViewController {
         
     }
 
-    extension LoginViewController: UITextFieldDelegate {
+    extension ChatLoginViewController: UITextFieldDelegate {
         
         func textFieldShouldReturn(_ textField: UITextField) -> Bool {
             if textField == emailField {
