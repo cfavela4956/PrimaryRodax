@@ -71,6 +71,7 @@
                         <segue destination="e7c-9S-V4E" kind="relationship" relationship="viewControllers" id="U6F-1H-smU"/>
                         <segue destination="Mc1-9a-2In" kind="relationship" relationship="viewControllers" id="FNr-q2-CPd"/>
                         <segue destination="tFn-Bx-cKQ" kind="relationship" relationship="viewControllers" id="nFm-YJ-DWu"/>
+                        <segue destination="a64-Lk-Wbe" kind="relationship" relationship="viewControllers" id="5n7-5e-1LO"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImV-vN-edw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1867,6 +1868,61 @@
             </objects>
             <point key="canvasLocation" x="58" y="1277"/>
         </scene>
+        <!--Map Search View Controller-->
+        <scene sceneID="FqE-HM-l00">
+            <objects>
+                <viewController id="odc-ZC-qyK" customClass="MapSearchViewController" customModule="RodaxTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QYR-Ft-rY9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="m8H-zk-mcq">
+                                <rect key="frame" x="0.0" y="132" width="414" height="718"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="m8H-zk-mcq" firstAttribute="top" secondItem="fOf-5T-S3V" secondAttribute="top" id="79v-9Y-tfI"/>
+                            <constraint firstItem="fOf-5T-S3V" firstAttribute="bottom" secondItem="m8H-zk-mcq" secondAttribute="bottom" id="aUB-rn-hZu"/>
+                            <constraint firstItem="fOf-5T-S3V" firstAttribute="trailing" secondItem="m8H-zk-mcq" secondAttribute="trailing" id="pwt-Z6-qcI"/>
+                            <constraint firstItem="m8H-zk-mcq" firstAttribute="leading" secondItem="fOf-5T-S3V" secondAttribute="leading" id="yCW-A5-6mN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fOf-5T-S3V"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="63C-cQ-a8V">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="By7-Jh-SWD">
+                            <connections>
+                                <action selector="searchButton:" destination="odc-ZC-qyK" id="B88-D9-KqH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="m8H-zk-mcq" id="rwq-dv-KVO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KpW-sN-Dcx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-520.28985507246375" y="2012.9464285714284"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="Xmj-0M-euC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a64-Lk-Wbe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="mappin.and.ellipse" catalog="system" id="cJh-rE-DSv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kuA-ip-9BN">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="odc-ZC-qyK" kind="relationship" relationship="rootViewController" id="nkR-Iz-zNZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22i-72-fi0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1635" y="2013"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="VmL-LU-dfH"/>
@@ -1895,6 +1951,7 @@
         <image name="list.bullet" catalog="system" width="128" height="88"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="map" catalog="system" width="128" height="113"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
         <image name="mappin.circle" catalog="system" width="128" height="121"/>
         <image name="mask sign" width="372" height="338"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
