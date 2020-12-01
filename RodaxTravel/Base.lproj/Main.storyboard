@@ -67,11 +67,11 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="dA6-5o-FPY" kind="relationship" relationship="viewControllers" id="GcB-2R-5n1"/>
-                        <segue destination="e7c-9S-V4E" kind="relationship" relationship="viewControllers" id="U6F-1H-smU"/>
-                        <segue destination="Mc1-9a-2In" kind="relationship" relationship="viewControllers" id="FNr-q2-CPd"/>
-                        <segue destination="tFn-Bx-cKQ" kind="relationship" relationship="viewControllers" id="nFm-YJ-DWu"/>
                         <segue destination="a64-Lk-Wbe" kind="relationship" relationship="viewControllers" id="5n7-5e-1LO"/>
+                        <segue destination="e7c-9S-V4E" kind="relationship" relationship="viewControllers" id="U6F-1H-smU"/>
+                        <segue destination="tFn-Bx-cKQ" kind="relationship" relationship="viewControllers" id="nFm-YJ-DWu"/>
+                        <segue destination="dA6-5o-FPY" kind="relationship" relationship="viewControllers" id="GcB-2R-5n1"/>
+                        <segue destination="Mc1-9a-2In" kind="relationship" relationship="viewControllers" id="FNr-q2-CPd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImV-vN-edw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1099,42 +1099,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lxj-94-ebd">
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lxj-94-ebd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Wear Your Mask" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QPa-An-fQV">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Wear Your Mask" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QPa-An-fQV">
                                 <rect key="frame" x="163" y="363" width="177" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Remain up-to-date with Covid-19 restrictions by clicking down below" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xo3-nq-upC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Remain up-to-date with Covid-19 restrictions by clicking down below" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xo3-nq-upC">
                                 <rect key="frame" x="37" y="599" width="350" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="5jo-ba-lXp"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OPh-cf-ngy">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OPh-cf-ngy">
                                 <rect key="frame" x="42" y="157" width="330" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="vfq-yT-J9B"/>
+                                </constraints>
                                 <string key="text">Remember to always:
 </string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcE-aX-0VP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcE-aX-0VP">
                                 <rect key="frame" x="74" y="685" width="266" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1144,44 +1146,86 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="More Info on Covid-19 in Chicago"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Feel comfortable and socialize safely." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aoR-Qp-Q6t">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Feel comfortable and socialize safely." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aoR-Qp-Q6t">
                                 <rect key="frame" x="47" y="58" width="320" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6ftapart sign" translatesAutoresizingMaskIntoConstraints="NO" id="C9h-ud-HFl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="6ftapart sign" translatesAutoresizingMaskIntoConstraints="NO" id="C9h-ud-HFl">
                                 <rect key="frame" x="37" y="453" width="109" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mask sign" translatesAutoresizingMaskIntoConstraints="NO" id="cOr-wh-flV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mask sign" translatesAutoresizingMaskIntoConstraints="NO" id="cOr-wh-flV">
                                 <rect key="frame" x="37" y="329" width="109" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wash hands sign" translatesAutoresizingMaskIntoConstraints="NO" id="53N-iC-nIx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wash hands sign" translatesAutoresizingMaskIntoConstraints="NO" id="53N-iC-nIx">
                                 <rect key="frame" x="37" y="213" width="109" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="of5-h7-ExY"/>
+                                    <constraint firstAttribute="height" constant="108" id="tLe-a4-yLU"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Wash Your Hands" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="90i-A0-oBi">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Wash Your Hands" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="90i-A0-oBi">
                                 <rect key="frame" x="163" y="250" width="177" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Stay 6ft Apart" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s4Z-o9-ZvI">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Stay 6ft Apart" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s4Z-o9-ZvI">
                                 <rect key="frame" x="163" y="490" width="177" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="2jH-3U-bG5"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="53N-iC-nIx" firstAttribute="centerY" secondItem="90i-A0-oBi" secondAttribute="centerY" id="2c3-pS-b26"/>
+                            <constraint firstItem="90i-A0-oBi" firstAttribute="leading" secondItem="QPa-An-fQV" secondAttribute="leading" id="3by-8A-xWG"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="top" secondItem="xo3-nq-upC" secondAttribute="bottom" constant="8" id="4Gv-mc-jIP"/>
+                            <constraint firstItem="Lxj-94-ebd" firstAttribute="centerY" secondItem="C8k-S4-mWb" secondAttribute="centerY" id="4XO-Vq-SU1"/>
+                            <constraint firstItem="53N-iC-nIx" firstAttribute="trailing" secondItem="cOr-wh-flV" secondAttribute="trailing" id="5mK-ZD-sNz"/>
+                            <constraint firstItem="90i-A0-oBi" firstAttribute="leading" secondItem="s4Z-o9-ZvI" secondAttribute="leading" id="Bgp-kH-Ch1"/>
+                            <constraint firstItem="cOr-wh-flV" firstAttribute="top" secondItem="53N-iC-nIx" secondAttribute="bottom" constant="8" id="Bpe-hn-8Mn"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="centerX" secondItem="C8k-S4-mWb" secondAttribute="centerX" id="ENj-jQ-pul"/>
+                            <constraint firstItem="53N-iC-nIx" firstAttribute="trailing" secondItem="C9h-ud-HFl" secondAttribute="trailing" id="Flv-ur-M7o"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="centerX" secondItem="aoR-Qp-Q6t" secondAttribute="centerX" id="Grc-Tb-Q2e"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="trailing" secondItem="QPa-An-fQV" secondAttribute="trailing" id="Hkt-ca-23I"/>
+                            <constraint firstItem="OPh-cf-ngy" firstAttribute="top" secondItem="aoR-Qp-Q6t" secondAttribute="bottom" constant="16" id="JMf-R9-83X"/>
+                            <constraint firstItem="xo3-nq-upC" firstAttribute="top" secondItem="C9h-ud-HFl" secondAttribute="bottom" constant="37" id="KLs-dY-eiZ"/>
+                            <constraint firstItem="90i-A0-oBi" firstAttribute="leading" secondItem="53N-iC-nIx" secondAttribute="trailing" constant="17" id="Knk-14-wOe"/>
+                            <constraint firstItem="aoR-Qp-Q6t" firstAttribute="centerX" secondItem="Lxj-94-ebd" secondAttribute="centerX" id="N1p-jz-fag"/>
+                            <constraint firstItem="Lxj-94-ebd" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" id="Rof-iA-3aM"/>
+                            <constraint firstItem="90i-A0-oBi" firstAttribute="top" secondItem="OPh-cf-ngy" secondAttribute="bottom" constant="45" id="STi-Ms-fJn"/>
+                            <constraint firstItem="s4Z-o9-ZvI" firstAttribute="top" secondItem="QPa-An-fQV" secondAttribute="bottom" constant="93" id="Vfe-8J-53O"/>
+                            <constraint firstItem="lO5-a8-gSC" firstAttribute="trailing" secondItem="xo3-nq-upC" secondAttribute="trailing" constant="27" id="XvG-L6-Bg3"/>
+                            <constraint firstItem="aoR-Qp-Q6t" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" constant="47" id="Z5w-b4-c8Q"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="centerX" secondItem="OPh-cf-ngy" secondAttribute="centerX" id="cng-nc-4Ig"/>
+                            <constraint firstItem="OPh-cf-ngy" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" constant="42" id="d4M-8A-sOL"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="trailing" secondItem="s4Z-o9-ZvI" secondAttribute="trailing" id="dUP-V8-6M0"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="centerX" secondItem="Lxj-94-ebd" secondAttribute="centerX" id="fEd-uj-Za5"/>
+                            <constraint firstItem="Lxj-94-ebd" firstAttribute="top" secondItem="lO5-a8-gSC" secondAttribute="top" id="hly-s1-iLJ"/>
+                            <constraint firstItem="xo3-nq-upC" firstAttribute="leading" secondItem="cOr-wh-flV" secondAttribute="leading" id="jwI-IZ-9os"/>
+                            <constraint firstItem="OPh-cf-ngy" firstAttribute="centerX" secondItem="aoR-Qp-Q6t" secondAttribute="centerX" id="kCU-4R-Kf5"/>
+                            <constraint firstItem="xo3-nq-upC" firstAttribute="top" secondItem="s4Z-o9-ZvI" secondAttribute="bottom" constant="75" id="kR0-yI-Y5a"/>
+                            <constraint firstItem="aoR-Qp-Q6t" firstAttribute="top" secondItem="lO5-a8-gSC" secondAttribute="top" constant="58" id="lWi-go-P7L"/>
+                            <constraint firstItem="lO5-a8-gSC" firstAttribute="bottom" secondItem="CcE-aX-0VP" secondAttribute="bottom" constant="44" id="lk6-F0-TDx"/>
+                            <constraint firstItem="OPh-cf-ngy" firstAttribute="centerX" secondItem="Lxj-94-ebd" secondAttribute="centerX" id="lz4-A8-L0Y"/>
+                            <constraint firstItem="CcE-aX-0VP" firstAttribute="trailing" secondItem="90i-A0-oBi" secondAttribute="trailing" id="md2-n6-4Sc"/>
+                            <constraint firstItem="QPa-An-fQV" firstAttribute="top" secondItem="90i-A0-oBi" secondAttribute="bottom" constant="79" id="nZi-iX-fw5"/>
+                            <constraint firstItem="xo3-nq-upC" firstAttribute="leading" secondItem="lO5-a8-gSC" secondAttribute="leading" constant="37" id="qWh-he-4PF"/>
+                            <constraint firstItem="xo3-nq-upC" firstAttribute="leading" secondItem="C9h-ud-HFl" secondAttribute="leading" id="qdd-DF-7ln"/>
+                            <constraint firstItem="53N-iC-nIx" firstAttribute="top" secondItem="C8k-S4-mWb" secondAttribute="top" constant="213" id="r74-xT-dES"/>
+                            <constraint firstItem="xo3-nq-upC" firstAttribute="leading" secondItem="53N-iC-nIx" secondAttribute="leading" id="tlb-mu-CtX"/>
+                            <constraint firstItem="s4Z-o9-ZvI" firstAttribute="centerY" secondItem="C9h-ud-HFl" secondAttribute="centerY" id="wqA-fk-ePP"/>
+                            <constraint firstItem="53N-iC-nIx" firstAttribute="top" secondItem="OPh-cf-ngy" secondAttribute="bottom" constant="8" id="xGL-dz-GtP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lO5-a8-gSC"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Covid-19" image="info.circle" catalog="system" selectedImage="info.circle" id="VyA-PU-Q0d"/>
@@ -1192,7 +1236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sto-bA-C7X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-865.21739130434787" y="0.6696428571428571"/>
+            <point key="canvasLocation" x="-706" y="202"/>
         </scene>
         <!--Log In View Controller-->
         <scene sceneID="B4N-fp-Bof">
