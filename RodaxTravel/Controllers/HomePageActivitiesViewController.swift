@@ -10,21 +10,50 @@ import UIKit
 
 class HomePageActivitiesViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var view1: UIView!
+        @IBOutlet weak var view2: UIView!
+        @IBOutlet weak var view3: UIView!
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            // Do any additional setup after loading the view.
+        }
+        
+        @IBAction func segmentedControlChanged(_ sender: Any) {
 
-        // Do any additional setup after loading the view.
-    }
-    
+        func showView1() {
+            view1.isHidden = false
+            view2.isHidden = true
+            view3.isHidden = true
+        }
 
-    /*
-    // MARK: - Navigation
+        func showView2() {
+            view1.isHidden = true
+            view2.isHidden = false
+            view3.isHidden = true
+        }
+            
+        func showView3() {
+            view1.isHidden = true
+            view2.isHidden = true
+            view3.isHidden = false
+        }
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+        guard let segmentedControl = sender as?
+            UISegmentedControl else { return }
+        if segmentedControl.selectedSegmentIndex == 0 {
+            showView1()
+
+        }
+           else if segmentedControl.selectedSegmentIndex == 1 {
+                showView2()
+
+            }
+            else {
+                       showView3()
+                   }
+            
+            
+        }
 
 }
