@@ -14,6 +14,8 @@
 		3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */; };
 		3F6BE6FB25746800003BDD2A /* MapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BE6FA25746800003BDD2A /* MapSearchViewController.swift */; };
 		3F6BE6FD2576A704003BDD2A /* HomePageActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BE6FC2576A704003BDD2A /* HomePageActivitiesViewController.swift */; };
+		3F6BE6FF2576EC9C003BDD2A /* WishlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BE6FE2576EC9C003BDD2A /* WishlistTableViewCell.swift */; };
+		3F6BE7012576ECDA003BDD2A /* WishlListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BE7002576ECDA003BDD2A /* WishlListTableViewCell.swift */; };
 		3FA17054254928720040FCC7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17053254928720040FCC7 /* HomePageViewController.swift */; };
 		3FA1714425573F910040FCC7 /* UploadProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */; };
 		3FA17148255B141A0040FCC7 /* MyJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */; };
@@ -68,6 +70,8 @@
 		3F5EED0C2537846F0068C058 /* MKMapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewViewController.swift; sourceTree = "<group>"; };
 		3F6BE6FA25746800003BDD2A /* MapSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchViewController.swift; sourceTree = "<group>"; };
 		3F6BE6FC2576A704003BDD2A /* HomePageActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageActivitiesViewController.swift; sourceTree = "<group>"; };
+		3F6BE6FE2576EC9C003BDD2A /* WishlistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WishlistTableViewCell.swift; path = RodaxTravel/WishlistTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		3F6BE7002576ECDA003BDD2A /* WishlListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WishlListTableViewCell.swift; path = RodaxTravel/WishlListTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		3FA17053254928720040FCC7 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		3FA1714325573F910040FCC7 /* UploadProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProfileImageViewController.swift; sourceTree = "<group>"; };
 		3FA17147255B141A0040FCC7 /* MyJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJournalViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 				3FCED543256306A4001C9E56 /* TravelGuidesViewController.swift */,
 				3FA171C8256091AD0040FCC7 /* ReviewPageTableViewController.swift */,
 				3FA171C625608E5E0040FCC7 /* MyRodaxProfileTableViewController.swift */,
+				3F6BE6FE2576EC9C003BDD2A /* WishlistTableViewCell.swift */,
+				3F6BE7002576ECDA003BDD2A /* WishlListTableViewCell.swift */,
 				3FA1719A255BAA870040FCC7 /* LogInViewController.swift */,
 				3FA17172255B577F0040FCC7 /* CovidInfoViewController.swift */,
 				3FA17174255B57BF0040FCC7 /* WebViewViewController.swift */,
@@ -444,6 +450,7 @@
 				3FA17148255B141A0040FCC7 /* MyJournalViewController.swift in Sources */,
 				3FB3EE7525743E87005AF101 /* VideoPlayerViewController.swift in Sources */,
 				3F5EED0D2537846F0068C058 /* MKMapViewViewController.swift in Sources */,
+				3F6BE7012576ECDA003BDD2A /* WishlListTableViewCell.swift in Sources */,
 				3FCED31B25365488001C9E56 /* OpeningViewController.swift in Sources */,
 				3FCED544256306A4001C9E56 /* TravelGuidesViewController.swift in Sources */,
 				3FB3EE6E25743E14005AF101 /* ChatLoginViewController.swift in Sources */,
@@ -455,6 +462,7 @@
 				3F2725542551BFBD00793468 /* CreateNewLists.swift in Sources */,
 				3FB3EE7925743EA9005AF101 /* ChatProfileViewController.swift in Sources */,
 				3F6BE6FB25746800003BDD2A /* MapSearchViewController.swift in Sources */,
+				3F6BE6FF2576EC9C003BDD2A /* WishlistTableViewCell.swift in Sources */,
 				3F2725522551BBE400793468 /* Locations&Activites.swift in Sources */,
 				3FB3EE7B25743F3F005AF101 /* Extensions.swift in Sources */,
 				3FB3EE7325743E7B005AF101 /* PhotoViewerViewController.swift in Sources */,
