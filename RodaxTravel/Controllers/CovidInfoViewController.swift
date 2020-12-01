@@ -42,6 +42,26 @@ class CovidInfoViewController: UIViewController {
             let navVC = UINavigationController(rootViewController: vc)
             present(navVC, animated:true)
         }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        createAlert(title: "Reminder", message: "Did you bring your mask?")
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    func createAlert (title:String, message: String)
+    {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        //creating an alert button
+        alert.addAction(UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: { (action) in alert.dismiss(animated: true, completion: nil)
+            print ("YES")
+        }))
+        alert.addAction(UIAlertAction(title: "No", style: UIAlertAction.Style.default, handler: { (action) in alert.dismiss(animated: true, completion: nil)
+            print ("NO")
+        }))
+            self.present(alert, animated: true, completion: nil)
+            }
 }
 
