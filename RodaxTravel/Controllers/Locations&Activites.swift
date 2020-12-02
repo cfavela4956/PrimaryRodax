@@ -24,6 +24,9 @@ class Locations_Activites: UIViewController, UITableViewDelegate, UITableViewDat
         // Do any additional setup after loading the view.
     }
     
+    
+    
+    
     @IBAction func didTapNewNote() {
         guard let vc = storyboard?.instantiateViewController(identifier: "New") as? CreateNewLists else {
             return
@@ -56,13 +59,39 @@ class Locations_Activites: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
+        let model = models[indexPath.row]
+        
+        
         // Show note controller
         
         guard let vc = storyboard?.instantiateViewController(identifier: "note") as? ListsofLocations_Activites else {
             return
         }
+        vc.navigationItem.largeTitleDisplayMode = .never
         vc.title = "Note"
+        vc.noteTitle = model.title
+        vc.note = model.note
         navigationController?.pushViewController(vc, animated: true)
     }
+    //Delete Row
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        
+    }
+    
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .delete
+    }
+    
+func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowat indexPath: IndexPath) {
+    if editingStyle == .delete {
+        tableView.beginUpdates()
+        models.remove(at: indexPath.row)
+        tableView.deleteRows(at: [indexPath], with: .fade)
+        tableView.endUpdates()
+    }
+    
+    }
+    
+  
 }

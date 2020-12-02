@@ -586,13 +586,44 @@
                     <view key="view" contentMode="scaleToFill" id="R7E-bf-IW3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.53136707149999995" green="0.72654251449999996" blue="0.84693035100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeP-zj-Ppw">
+                                <rect key="frame" x="10" y="54" width="394" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="H2c-sO-cbm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AZ1-6f-p9z">
+                                <rect key="frame" x="10" y="124" width="394" height="728"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.027628464620000001" green="0.55146533249999996" blue="0.63530820610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="YHr-1d-18r" firstAttribute="bottom" secondItem="AZ1-6f-p9z" secondAttribute="bottom" constant="10" id="K7r-i7-m3A"/>
+                            <constraint firstItem="YHr-1d-18r" firstAttribute="trailing" secondItem="eeP-zj-Ppw" secondAttribute="trailing" constant="10" id="O2w-lI-VJY"/>
+                            <constraint firstItem="eeP-zj-Ppw" firstAttribute="top" secondItem="YHr-1d-18r" secondAttribute="top" constant="10" id="UcG-nt-i1i"/>
+                            <constraint firstItem="AZ1-6f-p9z" firstAttribute="top" secondItem="eeP-zj-Ppw" secondAttribute="bottom" constant="10" id="gFf-jR-8fo"/>
+                            <constraint firstItem="eeP-zj-Ppw" firstAttribute="leading" secondItem="YHr-1d-18r" secondAttribute="leading" constant="10" id="gTQ-Cr-a5F"/>
+                            <constraint firstItem="YHr-1d-18r" firstAttribute="trailing" secondItem="AZ1-6f-p9z" secondAttribute="trailing" constant="10" id="mcq-HF-80P"/>
+                            <constraint firstItem="AZ1-6f-p9z" firstAttribute="leading" secondItem="YHr-1d-18r" secondAttribute="leading" constant="10" id="uPZ-9R-dp0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YHr-1d-18r"/>
                     </view>
+                    <connections>
+                        <outlet property="noteLabel" destination="AZ1-6f-p9z" id="FF7-hP-vXN"/>
+                        <outlet property="titleLabel" destination="eeP-zj-Ppw" id="sFX-F7-UGr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G4e-o7-S7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2955" y="1"/>
+            <point key="canvasLocation" x="4154" y="-674"/>
         </scene>
         <!--My Rodax-->
         <scene sceneID="YhJ-bm-J8m">
