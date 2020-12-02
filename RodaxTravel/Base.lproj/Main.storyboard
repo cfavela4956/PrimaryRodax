@@ -887,6 +887,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <segue destination="hpa-MD-CQo" kind="show" id="oDp-34-vPg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -1566,6 +1569,58 @@
             </objects>
             <point key="canvasLocation" x="1080" y="-1349"/>
         </scene>
+        <!--About Rodax-->
+        <scene sceneID="gL5-yD-lBb">
+            <objects>
+                <viewController title="About Rodax" id="hpa-MD-CQo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vg5-dR-dis">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qp-Xq-NA5">
+                                <rect key="frame" x="20" y="419" width="374" height="306"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Rodax is an app designed to help create new experiences and allow people to feel comfortable with socializing again. Rodax encourages users to explore new places and provides actitivites that cater to all comfort levels.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Helping you get together safely, easily, and comfortably" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpq-YX-qCG">
+                                <rect key="frame" x="54" y="268" width="307" height="126.66666666666669"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126.66666666666667" id="bTJ-cD-iCE"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white rodax-socialize in a sec" translatesAutoresizingMaskIntoConstraints="NO" id="ruX-Kw-thj">
+                                <rect key="frame" x="54" y="75" width="307" height="160"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.012636158907029632" green="0.38730749686789201" blue="0.450867246851269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="R80-tu-78g" firstAttribute="bottom" secondItem="6qp-Xq-NA5" secondAttribute="bottom" constant="83" id="5wZ-SZ-hr6"/>
+                            <constraint firstItem="R80-tu-78g" firstAttribute="trailing" secondItem="ruX-Kw-thj" secondAttribute="trailing" constant="53" id="HFk-Aj-cdd"/>
+                            <constraint firstItem="Dpq-YX-qCG" firstAttribute="top" secondItem="ruX-Kw-thj" secondAttribute="bottom" constant="33" id="UCi-kZ-OUJ"/>
+                            <constraint firstItem="ruX-Kw-thj" firstAttribute="leading" secondItem="R80-tu-78g" secondAttribute="leading" constant="54" id="UCl-J2-NyB"/>
+                            <constraint firstItem="Dpq-YX-qCG" firstAttribute="trailing" secondItem="ruX-Kw-thj" secondAttribute="trailing" id="l5D-tt-vGT"/>
+                            <constraint firstItem="6qp-Xq-NA5" firstAttribute="top" secondItem="Dpq-YX-qCG" secondAttribute="bottom" constant="24.329999999999998" id="lpb-Bd-JSo"/>
+                            <constraint firstItem="Dpq-YX-qCG" firstAttribute="leading" secondItem="ruX-Kw-thj" secondAttribute="leading" id="nh8-yJ-rlZ"/>
+                            <constraint firstItem="Dpq-YX-qCG" firstAttribute="top" secondItem="vg5-dR-dis" secondAttribute="top" constant="268" id="o7O-yS-w39"/>
+                            <constraint firstItem="R80-tu-78g" firstAttribute="trailing" secondItem="6qp-Xq-NA5" secondAttribute="trailing" constant="20" id="pxD-va-A6I"/>
+                            <constraint firstItem="6qp-Xq-NA5" firstAttribute="leading" secondItem="R80-tu-78g" secondAttribute="leading" constant="20" id="qhh-cc-3kG"/>
+                            <constraint firstItem="ruX-Kw-thj" firstAttribute="top" secondItem="R80-tu-78g" secondAttribute="top" constant="75" id="vaN-yK-Zgv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R80-tu-78g"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oWk-0a-NDa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pBG-s3-vqu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1898.5507246376812" y="-1349.3303571428571"/>
+        </scene>
         <!--Review Page Table View Controller-->
         <scene sceneID="Wtd-pc-Qd5">
             <objects>
@@ -2172,6 +2227,7 @@
         <image name="star.lefthalf.fill" catalog="system" width="128" height="116"/>
         <image name="ui_user_account_person_username-512" width="512" height="512"/>
         <image name="wash hands sign" width="372" height="338"/>
+        <image name="white rodax-socialize in a sec" width="5051" height="2180"/>
         <namedColor name="Color Background">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
