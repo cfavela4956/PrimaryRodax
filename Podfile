@@ -5,10 +5,11 @@ target 'RodaxTravel' do
  use_frameworks!
 
 pod 'Firebase/Analytics'
-
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
 pod 'Cosmos', '~> 23.0'
 pod 'TinyConstraints'
-
 
 end
 

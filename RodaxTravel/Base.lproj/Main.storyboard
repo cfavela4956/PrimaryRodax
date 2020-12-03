@@ -1015,22 +1015,26 @@
                                     <constraint firstAttribute="height" constant="620" id="yiV-t1-FZM"/>
                                 </constraints>
                             </mapView>
-                            <searchBar contentMode="redraw" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LaR-mr-ciC">
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="LaR-mr-ciC">
                                 <rect key="frame" x="0.0" y="35" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="rt4-Wj-5gP"/>
+                                </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiR-4m-ZqV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiR-4m-ZqV">
                                 <rect key="frame" x="20" y="101" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="h8U-yd-b8a"/>
+                                </constraints>
                                 <state key="normal" title="Parks"/>
                                 <connections>
                                     <action selector="onParksButtonPressed:" destination="i9d-m8-P64" eventType="touchUpInside" id="W7c-T7-gAc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gz-Dm-rzE">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gz-Dm-rzE">
                                 <rect key="frame" x="90" y="101" width="104" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Restaurants"/>
                                 <connections>
@@ -1041,10 +1045,15 @@
                         <color key="backgroundColor" red="0.43818840380000001" green="0.78407245869999997" blue="0.79216921330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="centerX" secondItem="tza-7p-L59" secondAttribute="centerX" id="4ie-zC-Jmd"/>
+                            <constraint firstItem="FiR-4m-ZqV" firstAttribute="leading" secondItem="tza-7p-L59" secondAttribute="leadingMargin" id="HYr-Md-QHN"/>
+                            <constraint firstItem="LaR-mr-ciC" firstAttribute="top" secondItem="tza-7p-L59" secondAttribute="topMargin" constant="-9" id="Nxj-KN-nQt"/>
+                            <constraint firstItem="1gz-Dm-rzE" firstAttribute="leading" secondItem="FiR-4m-ZqV" secondAttribute="trailing" constant="8" id="Qlk-dw-5If"/>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="leading" secondItem="0hs-Gn-isw" secondAttribute="leading" id="Uwj-W3-hpC"/>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="leading" secondItem="LaR-mr-ciC" secondAttribute="leading" id="WF8-qI-LAB"/>
+                            <constraint firstItem="FiR-4m-ZqV" firstAttribute="baseline" secondItem="1gz-Dm-rzE" secondAttribute="baseline" id="XzU-Fm-7sK"/>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="trailing" secondItem="LaR-mr-ciC" secondAttribute="trailing" id="hcM-3T-2Dz"/>
                             <constraint firstItem="aZa-jN-bfV" firstAttribute="bottom" secondItem="0hs-Gn-isw" secondAttribute="bottom" id="iCl-a7-dpT"/>
+                            <constraint firstItem="FiR-4m-ZqV" firstAttribute="top" secondItem="LaR-mr-ciC" secondAttribute="bottom" constant="22" id="qNs-BB-e8W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0hs-Gn-isw"/>
                     </view>
