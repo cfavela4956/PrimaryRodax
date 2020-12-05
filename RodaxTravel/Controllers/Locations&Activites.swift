@@ -73,7 +73,7 @@ class Locations_Activites: UIViewController, UITableViewDelegate, UITableViewDat
         vc.note = model.note
         navigationController?.pushViewController(vc, animated: true)
     }
-    //Delete Row
+    //Code that lets you delete Row
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         

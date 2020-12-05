@@ -8,6 +8,7 @@ pod 'Firebase/Analytics'
 
 pod 'Cosmos', '~> 23.0'
 pod 'TinyConstraints'
+pod 'FSCalendar'
 
 
 end

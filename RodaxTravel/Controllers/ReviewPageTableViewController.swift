@@ -12,7 +12,7 @@ import TinyConstraints
 
 class ReviewPageTableViewController: UITableViewController {
     
-
+    
     //Cosmos related
     lazy var cosmosView: CosmosView = {
         var view = CosmosView()
@@ -26,13 +26,14 @@ class ReviewPageTableViewController: UITableViewController {
         view.settings.starMargin = 3.3
         view.settings.fillMode = .full
         
-        view.text = "Rate me"
-        view.settings.textColor = .red
-        view.settings.textMargin = 10
+//        view.text = "Rate me"
+//        view.settings.textColor = .red
+//        view.settings.textMargin = 10
+        
         
         return view
     }()
-
+    
     
     @IBOutlet weak var cancelBarButton: UIBarButtonItem!
     @IBOutlet weak var saveBarButton: UIBarButtonItem!
@@ -48,14 +49,14 @@ class ReviewPageTableViewController: UITableViewController {
     
     @IBOutlet var starButtonCollection: [UIButton]!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .white
         
         //Cosmos related
-        view.addSubview(cosmosView)
+        starBackgroundColor.addSubview(cosmosView)
         cosmosView.centerInSuperview()
         
         cosmosView.didTouchCosmos = { rating in
